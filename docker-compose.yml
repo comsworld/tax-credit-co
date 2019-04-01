@@ -1,0 +1,58 @@
+version: '3'
+services:
+
+  seleniumhub:
+    image: selenium/hub
+    ports:
+      - 4444:4444
+    environment:
+      - GRID_MAX_SESSION=50
+
+  #    Uncomment for running tests locally without browserstack or Crossbrowsertesting
+
+  #  firefoxnode:
+  #    image: selenium/node-firefox
+  #    environment:
+  #      HUB_HOST: seleniumhub
+  #      SCREEN_WIDTH: 2880
+  #      SCREEN_HEIGHT: 1800
+  #    depends_on:
+  #      - seleniumhub
+  #    ports:
+  #    - 5900
+  #
+  chromenode:
+    image: selenium/node-chrome
+    environment:
+      HUB_HOST: seleniumhub
+      SCREEN_WIDTH: 2880
+      SCREEN_HEIGHT: 1800
+    depends_on:
+      - seleniumhub
+    ports:
+      - 5900
+  #
+  #  openvpn:
+  #    cap_add:
+  #    - NET_ADMIN
+  #    image: kylemanna/openvpn
+  #    environment:
+  #      HUB_HOST: chromenode
+  #    container_name: openvpn
+  #    ports:
+  #    - "1194:1194/udp"
+  #    restart: always
+  #    volumes:
+  #    - ./openvpn-data/conf:/src/etc/openvpn
+
+
+  app:
+    build: .
+    depends_on:
+      - seleniumhub
+    #      - firefoxnode
+    #      - chromenode
+    volumes:
+      - ./testResults/API:/src/target/API
+      - ./testResults/UI:/src/target/UI
+

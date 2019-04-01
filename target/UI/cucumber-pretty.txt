@@ -1,0 +1,23 @@
+@UITest
+Feature: Login Action
+
+  Scenario Outline: Login with Valid Credentials [90m# C:/Users/Kostadin Mladenov/Documents/Coding/IntelliJ Projects/onlineStore/src/test/resources/features/frontend/loginTest.feature:4[0m
+    [36mGiven User navigates to Home Page using <browser>[0m
+    [36mWhen User enters UserName[0m
+    [36mAnd User enters Password[0m
+    [36mThen Message displayed Login Successfully[0m
+
+    Examples: 
+
+  @UITest
+  Scenario Outline: Login with Valid Credentials   [90m# C:/Users/Kostadin Mladenov/Documents/Coding/IntelliJ Projects/onlineStore/src/test/resources/features/frontend/loginTest.feature:12[0m
+    [32mGiven [0m[32mUser navigates to Home Page using [0m[32m[1mchrome[0m [90m# UISteps.User_is_on_Home_Page(String)[0m
+    [32mWhen [0m[32mUser enters UserName[0m                      [90m# UISteps.User_enters_UserName()[0m
+    [32mAnd [0m[32mUser enters Password[0m                       [90m# UISteps.User_enters_Password()[0m
+    [32mThen [0m[32mMessage displayed Login Successfully[0m      [90m# UISteps.Message_displayed_Login_Successfully()[0m
+
+  @UITest
+  Scenario: LogOut                             [90m# C:/Users/Kostadin Mladenov/Documents/Coding/IntelliJ Projects/onlineStore/src/test/resources/features/frontend/loginTest.feature:17[0m
+    [32mGiven [0m[32mUser is logged in[0m                    [90m# UISteps.User_is_logged_in()[0m
+    [32mWhen [0m[32mUser LogOut from the Application[0m      [90m# UISteps.User_LogOut_from_the_Application()[0m
+    [32mThen [0m[32mMessage displayed LogOut Successfully[0m [90m# UISteps.Message_displayed_LogOut_Successfully()[0m

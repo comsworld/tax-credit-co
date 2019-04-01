@@ -1,0 +1,129 @@
+[
+  {
+    "source": "^User enters UserName$",
+    "steps": [
+      {
+        "name": "User enters UserName",
+        "aggregatedDurations": {
+          "average": 0.150368455,
+          "median": 0.150368455
+        },
+        "durations": [
+          {
+            "duration": 0.150368455,
+            "location": "C:/Users/Kostadin Mladenov/Documents/Coding/IntelliJ Projects/onlineStore/src/test/resources/features/frontend/loginTest.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User enters Password$",
+    "steps": [
+      {
+        "name": "User enters Password",
+        "aggregatedDurations": {
+          "average": 4.068987682,
+          "median": 4.068987682
+        },
+        "durations": [
+          {
+            "duration": 4.068987682,
+            "location": "C:/Users/Kostadin Mladenov/Documents/Coding/IntelliJ Projects/onlineStore/src/test/resources/features/frontend/loginTest.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User is logged in$",
+    "steps": [
+      {
+        "name": "User is logged in",
+        "aggregatedDurations": {
+          "average": 0.000263901,
+          "median": 0.000263901
+        },
+        "durations": [
+          {
+            "duration": 0.000263901,
+            "location": "C:/Users/Kostadin Mladenov/Documents/Coding/IntelliJ Projects/onlineStore/src/test/resources/features/frontend/loginTest.feature:18"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Message displayed LogOut Successfully$",
+    "steps": [
+      {
+        "name": "Message displayed LogOut Successfully",
+        "aggregatedDurations": {
+          "average": 0.540519325,
+          "median": 0.540519325
+        },
+        "durations": [
+          {
+            "duration": 0.540519325,
+            "location": "C:/Users/Kostadin Mladenov/Documents/Coding/IntelliJ Projects/onlineStore/src/test/resources/features/frontend/loginTest.feature:20"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Message displayed Login Successfully$",
+    "steps": [
+      {
+        "name": "Message displayed Login Successfully",
+        "aggregatedDurations": {
+          "average": 0.000423111,
+          "median": 0.000423111
+        },
+        "durations": [
+          {
+            "duration": 0.000423111,
+            "location": "C:/Users/Kostadin Mladenov/Documents/Coding/IntelliJ Projects/onlineStore/src/test/resources/features/frontend/loginTest.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User navigates to Home Page using (.*?)$",
+    "steps": [
+      {
+        "name": "User navigates to Home Page using chrome",
+        "aggregatedDurations": {
+          "average": 6.44757272,
+          "median": 6.44757272
+        },
+        "durations": [
+          {
+            "duration": 6.44757272,
+            "location": "C:/Users/Kostadin Mladenov/Documents/Coding/IntelliJ Projects/onlineStore/src/test/resources/features/frontend/loginTest.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User LogOut from the Application$",
+    "steps": [
+      {
+        "name": "User LogOut from the Application",
+        "aggregatedDurations": {
+          "average": 0.917277992,
+          "median": 0.917277992
+        },
+        "durations": [
+          {
+            "duration": 0.917277992,
+            "location": "C:/Users/Kostadin Mladenov/Documents/Coding/IntelliJ Projects/onlineStore/src/test/resources/features/frontend/loginTest.feature:19"
+          }
+        ]
+      }
+    ]
+  }
+]}
+]

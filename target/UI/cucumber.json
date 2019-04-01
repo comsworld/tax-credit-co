@@ -1,0 +1,186 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4578767,
+              "status": "passed"
+            },
+            "match": {
+              "location": "UISteps.before(Scenario)"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Login with Valid Credentials",
+        "description": "",
+        "id": "login-action;login-with-valid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 416790,
+              "status": "passed"
+            },
+            "match": {
+              "location": "UISteps.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6447572720,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigates to Home Page using chrome",
+            "match": {
+              "arguments": [
+                {
+                  "val": "chrome",
+                  "offset": 34
+                }
+              ],
+              "location": "UISteps.User_is_on_Home_Page(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 150368455,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters UserName",
+            "match": {
+              "location": "UISteps.User_enters_UserName()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4068987682,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters Password",
+            "match": {
+              "location": "UISteps.User_enters_Password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 423111,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Message displayed Login Successfully",
+            "match": {
+              "location": "UISteps.Message_displayed_Login_Successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@UITest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 399012,
+              "status": "passed"
+            },
+            "match": {
+              "location": "UISteps.before(Scenario)"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "LogOut",
+        "description": "",
+        "id": "login-action;logout",
+        "after": [
+          {
+            "result": {
+              "duration": 235062,
+              "status": "passed"
+            },
+            "match": {
+              "location": "UISteps.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 263901,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User is logged in",
+            "match": {
+              "location": "UISteps.User_is_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 917277992,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User LogOut from the Application",
+            "match": {
+              "location": "UISteps.User_LogOut_from_the_Application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 540519325,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Message displayed LogOut Successfully",
+            "match": {
+              "location": "UISteps.Message_displayed_LogOut_Successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@UITest"
+          }
+        ]
+      }
+    ],
+    "name": "Login Action",
+    "description": "",
+    "id": "login-action",
+    "keyword": "Feature",
+    "uri": "C:/Users/Kostadin Mladenov/Documents/Coding/IntelliJ Projects/onlineStore/src/test/resources/features/frontend/loginTest.feature",
+    "tags": [
+      {
+        "name": "@UITest",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]]
