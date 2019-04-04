@@ -18,7 +18,7 @@ run_docker_compose:
     - mkdir testResults/API
     - mkdir testResults/UI
     - docker-compose up -d
-    - docker-compose exec -T app mvn test -DsuiteXmlFile=testrunner.xml
+    - docker-compose exec -T app mvn test
     - docker-compose down -v
   artifacts:
     paths:

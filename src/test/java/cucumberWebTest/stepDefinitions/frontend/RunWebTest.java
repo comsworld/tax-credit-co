@@ -1,17 +1,5 @@
 package cucumberWebTest.stepDefinitions.frontend;
 
-//import cucumber.api.CucumberOptions;
-//import cucumber.api.junit.Cucumber;
-//import org.junit.runner.RunWith;
-//
-//@RunWith(Cucumber.class)
-//@CucumberOptions(plugin = {"pretty"},
-//features = {"C:\\Users\\Kostadin Mladenov\\Documents\\Coding\\IntelliJ Projects\\onlineStore\\src\\test\\resources\\features\\frontend\\"},
-//glue = {"cucumberWebTest.stepDefinitions"})
-//public class RunWebTest {
-//
-//}
-
 import com.github.mkolisnyk.cucumber.runner.ExtendedTestNGRunner;
 import com.github.mkolisnyk.cucumber.runner.ExtendedCucumberOptions;
 import cucumber.api.CucumberOptions;

@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ad4f5f7a-942e-42f1-ae56-1a04dfe73052" name="Default Changelist" comment="" />
+    <list default="true" id="ad4f5f7a-942e-42f1-ae56-1a04dfe73052" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cucumberWebTest/frontend/pageObjects/NewRegistrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cucumberWebTest/frontend/pageObjects/NewRegistrationPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberWebTest/stepDefinitions/UISteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberWebTest/stepDefinitions/UISteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberWebTest/stepDefinitions/frontend/RunWebTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberWebTest/stepDefinitions/frontend/RunWebTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/frontend/newRegistration.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/frontend/newRegistration.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/UI/cucumber-results-coverage.html.bak.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/UI/cucumber-results-coverage.html.bak.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/UI/cucumber-results-coverage.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/target/UI/cucumber-results-coverage.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/UI/cucumber-results-feature-overview.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/UI/cucumber-results-feature-overview.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/UI/cucumber-results-feature-overview.html.bak.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/UI/cucumber-results-feature-overview.html.bak.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/UI/cucumber-results-feature-overview.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/target/UI/cucumber-results-feature-overview.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/UI/cucumber-results-test-results.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/UI/cucumber-results-test-results.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/UI/cucumber-results-test-results.html.bak.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/UI/cucumber-results-test-results.html.bak.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/UI/cucumber-results-test-results.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/target/UI/cucumber-results-test-results.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/UI/cucumber-results-usage.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/UI/cucumber-results-usage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/UI/cucumber-results-usage.html.bak.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/UI/cucumber-results-usage.html.bak.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/UI/cucumber-results-usage.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/target/UI/cucumber-results-usage.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/UI/cucumber-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/UI/cucumber-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/UI/cucumber-usage.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/UI/cucumber-usage.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/UI/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/UI/cucumber.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/cucumberWebTest/stepDefinitions/UISteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/cucumberWebTest/stepDefinitions/UISteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/cucumberWebTest/stepDefinitions/frontend/RunWebTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/cucumberWebTest/stepDefinitions/frontend/RunWebTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/frontend/newRegistration.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/frontend/newRegistration.feature" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,20 +37,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/cucumberWebTest/stepDefinitions/frontend/RunWebTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="37" column="25" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cucumberWebTest/backend/service/RestServices.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="46" column="21" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
+            <state relative-caret-position="374">
+              <caret line="24" column="12" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -38,8 +49,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/features/frontend/loginTest.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+            <state relative-caret-position="323">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -47,32 +58,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/features/frontend/newRegistration.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/cucumberWebTest/stepDefinitions/UISteps.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2737">
-              <caret line="178" column="9" selection-start-line="178" selection-start-column="9" selection-end-line="178" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cucumberWebTest/frontend/pageObjects/HomePage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="357">
+              <caret line="21" column="45" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -80,8 +67,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/cucumberWebTest/stepDefinitions/APIUserSteps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+            <state relative-caret-position="119">
+              <caret line="25" column="25" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -90,19 +77,25 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/features/backend/Users.feature">
+        <entry file="file://$PROJECT_DIR$/src/test/java/cucumberWebTest/stepDefinitions/UISteps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+            <state relative-caret-position="66">
+              <caret line="164" column="55" selection-start-line="164" selection-start-column="55" selection-end-line="164" selection-end-column="55" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cucumberWebTest/backend/bindings/User.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cucumberWebTest/frontend/pageObjects/NewRegistrationPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="255">
+              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -115,7 +108,8 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/onlinestore" />
+    <option name="ROOT_SYNC" value="SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -131,9 +125,10 @@
         <option value="$PROJECT_DIR$/src/test/resources/features/backend/Users.feature" />
         <option value="$PROJECT_DIR$/src/main/java/cucumberWebTest/frontend/pageObjects/HomePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/cucumberWebTest/stepDefinitions/UIStepsRegistration.java" />
-        <option value="$PROJECT_DIR$/src/test/java/cucumberWebTest/stepDefinitions/UISteps.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/features/frontend/newRegistration.feature" />
         <option value="$PROJECT_DIR$/src/test/java/cucumberWebTest/stepDefinitions/frontend/RunWebTest.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/frontend/newRegistration.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/cucumberWebTest/stepDefinitions/UISteps.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cucumberWebTest/frontend/pageObjects/NewRegistrationPage.java" />
       </list>
     </option>
   </component>
@@ -145,9 +140,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-5" />
-    <option name="width" value="3850" />
-    <option name="height" value="2165" />
+    <option name="width" value="1535" />
+    <option name="height" value="865" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -196,35 +190,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="cucumberWebTest" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="onlineStore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="onlineStore" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cucumberWebTest" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="bindings" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="onlineStore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="onlineStore" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cucumberWebTest" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="onlineStore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="onlineStore" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cucumberWebTest" type="462c0819:PsiDirectoryNode" />
               <item name="frontend" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -236,6 +201,13 @@
               <item name="cucumberWebTest" type="462c0819:PsiDirectoryNode" />
               <item name="frontend" type="462c0819:PsiDirectoryNode" />
               <item name="pageObjects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="onlineStore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="onlineStore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="onlineStore" type="b2602c69:ProjectViewProjectNode" />
@@ -309,21 +281,7 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="features" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="onlineStore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="onlineStore" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="features" type="462c0819:PsiDirectoryNode" />
               <item name="frontend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="onlineStore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="onlineStore" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -335,7 +293,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554088536309" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554271369416" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -365,7 +323,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.RunWebTest">
+  <component name="RunManager" selected="Cucumber java.Feature: newRegistration">
     <configuration name="Feature: loginTest" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/frontend/loginTest.feature" />
@@ -459,9 +417,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber java.Feature: newRegistration" />
         <item itemvalue="TestNG.RunWebTest" />
         <item itemvalue="Cucumber java.Scenario: User navigates to new registration page" />
-        <item itemvalue="Cucumber java.Feature: newRegistration" />
         <item itemvalue="Cucumber java.Feature: loginTest" />
         <item itemvalue="Cucumber java.Scenario: Login with Valid Credentials" />
       </list>
@@ -479,49 +437,50 @@
       <updated>1553477345834</updated>
       <workItem from="1553477352204" duration="1163000" />
       <workItem from="1553478602781" duration="21141000" />
-      <workItem from="1554088924598" duration="523000" />
+      <workItem from="1554088924598" duration="10150000" />
+      <workItem from="1554273592279" duration="1080000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Scenario__User_navigates_to_new_registration_page - 2019.03.29 at 12h 46m 28s.xml">
-      <configuration name="Scenario: User navigates to new registration page" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Feature__newRegistration - 2019.04.02 at 22h 34m 57s.xml">
+      <configuration name="Feature: newRegistration" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__User_navigates_to_new_registration_page - 2019.03.29 at 12h 48m 47s.xml">
-      <configuration name="Scenario: User navigates to new registration page" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Feature__newRegistration - 2019.04.02 at 22h 35m 52s.xml">
+      <configuration name="Feature: newRegistration" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__User_navigates_to_new_registration_page - 2019.03.29 at 12h 52m 38s.xml">
-      <configuration name="Scenario: User navigates to new registration page" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Feature__newRegistration - 2019.04.02 at 23h 01m 11s.xml">
+      <configuration name="Feature: newRegistration" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__User_navigates_to_new_registration_page - 2019.03.29 at 12h 54m 08s.xml">
-      <configuration name="Scenario: User navigates to new registration page" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Feature__newRegistration - 2019.04.02 at 23h 03m 05s.xml">
+      <configuration name="Feature: newRegistration" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__User_navigates_to_new_registration_page - 2019.03.29 at 13h 42m 12s.xml">
-      <configuration name="Scenario: User navigates to new registration page" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Feature__newRegistration - 2019.04.02 at 23h 44m 10s.xml">
+      <configuration name="Feature: newRegistration" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__User_navigates_to_new_registration_page - 2019.03.29 at 14h 30m 56s.xml">
-      <configuration name="Scenario: User navigates to new registration page" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Feature__newRegistration - 2019.04.02 at 23h 45m 58s.xml">
+      <configuration name="Feature: newRegistration" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__User_navigates_to_new_registration_page - 2019.03.29 at 14h 31m 31s.xml">
-      <configuration name="Scenario: User navigates to new registration page" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Feature__newRegistration - 2019.04.02 at 23h 48m 15s.xml">
+      <configuration name="Feature: newRegistration" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__User_navigates_to_new_registration_page - 2019.03.29 at 14h 33m 41s.xml">
-      <configuration name="Scenario: User navigates to new registration page" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Feature__newRegistration - 2019.04.02 at 23h 52m 03s.xml">
+      <configuration name="Feature: newRegistration" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="RunWebTest - 2019.03.29 at 14h 37m 36s.xml">
-      <configuration name="RunWebTest" configurationId="TestNG" />
+    <history-entry file="Feature__newRegistration - 2019.04.02 at 23h 52m 57s.xml">
+      <configuration name="Feature: newRegistration" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="RunWebTest - 2019.03.29 at 14h 38m 38s.xml">
-      <configuration name="RunWebTest" configurationId="TestNG" />
+    <history-entry file="Feature__newRegistration - 2019.04.02 at 23h 57m 27s.xml">
+      <configuration name="Feature: newRegistration" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22827000" />
+    <option name="totallyTimeSpent" value="33534000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1549" height="877" extended-state="6" />
+    <frame x="-6" y="-6" width="1549" height="877" extended-state="7" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24279007" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24279007" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -531,7 +490,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.437751" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.437751" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39892906" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -539,7 +498,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3253012" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3253012" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.30923694" />
       <window_info anchor="bottom" id="Spring" order="13" />
@@ -556,43 +515,55 @@
       <window_info anchor="right" id="Bean Validation" order="9" />
     </layout>
     <layout-to-restore>
-      <window_info id="Web" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.18041582" />
-      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Designer" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Spring" order="0" />
-      <window_info anchor="bottom" id="Java Enterprise" order="1" />
-      <window_info anchor="bottom" id="Message" order="2" />
-      <window_info anchor="bottom" id="Find" order="3" />
-      <window_info anchor="bottom" id="Run" order="4" visible="true" weight="0.4390897" />
-      <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="8" />
-      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Terminal" order="12" />
-      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="14" weight="0.30923694" />
-      <window_info anchor="right" id="Bean Validation" order="0" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Database" order="5" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="right" id="Maven" order="7" />
-      <window_info anchor="right" id="Capture Analysis" order="8" />
-      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24279007" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.437751" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39892906" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3253012" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.30923694" />
+      <window_info anchor="bottom" id="Spring" order="13" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/cucumberWebTest/stepDefinitions/UISteps.java</url>
+          <line>164</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/target/surefire-reports/cucumberWebTest.stepDefinitions.frontend.RunWebTest/Command line test.html">
@@ -635,26 +606,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-36" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitlab-ci.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.5.RELEASE/spring-web-5.0.5.RELEASE.jar!/org/springframework/http/HttpHeaders.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3570">
@@ -666,16 +617,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/cucumberWebTest/Hooks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -694,54 +635,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/cucumberWebTest/stepDefinitions/frontend/RunWebTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="37" column="25" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/frontend/loginTest.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/frontend/newRegistration.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/cucumberWebTest/stepDefinitions/UISteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2737">
-          <caret line="178" column="9" selection-start-line="178" selection-start-column="9" selection-end-line="178" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cucumberWebTest/frontend/pageObjects/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/cucumberWebTest/stepDefinitions/APIUserSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -762,10 +659,119 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1173" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-173" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/cucumberWebTest/Hooks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitlab-ci.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="15" lean-forward="true" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.10/testng-6.10.jar!/org/testng/Assert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
+          <folding>
+            <element signature="e#675#676#0" expanded="true" />
+            <element signature="e#721#722#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/cucumber/cucumber-java8/2.4.0/cucumber-java8-2.4.0.jar!/cucumber/api/java8/StepdefBody.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cucumberWebTest/backend/service/RestServices.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
           <caret line="46" column="21" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/cucumberWebTest/stepDefinitions/frontend/RunWebTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="24" column="12" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/frontend/loginTest.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/frontend/newRegistration.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="45" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/cucumberWebTest/stepDefinitions/APIUserSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="25" column="25" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/cucumber/cucumber-core/2.4.0/cucumber-core-2.4.0.jar!/cucumber/runtime/Utils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/cucumberWebTest/stepDefinitions/UISteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="164" column="55" selection-start-line="164" selection-start-column="55" selection-end-line="164" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cucumberWebTest/frontend/pageObjects/NewRegistrationPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

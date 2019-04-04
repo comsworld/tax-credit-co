@@ -5,12 +5,12 @@
       {
         "name": "User enters UserName",
         "aggregatedDurations": {
-          "average": 0.150368455,
-          "median": 0.150368455
+          "average": 0.14858317,
+          "median": 0.14858317
         },
         "durations": [
           {
-            "duration": 0.150368455,
+            "duration": 0.14858317,
             "location": "C:/Users/Kostadin Mladenov/Documents/Coding/IntelliJ Projects/onlineStore/src/test/resources/features/frontend/loginTest.feature:6"
           }
         ]
@@ -23,12 +23,12 @@
       {
         "name": "User enters Password",
         "aggregatedDurations": {
-          "average": 4.068987682,
-          "median": 4.068987682
+          "average": 3.14475502,
+          "median": 3.14475502
         },
         "durations": [
           {
-            "duration": 4.068987682,
+            "duration": 3.14475502,
             "location": "C:/Users/Kostadin Mladenov/Documents/Coding/IntelliJ Projects/onlineStore/src/test/resources/features/frontend/loginTest.feature:7"
           }
         ]
@@ -41,12 +41,12 @@
       {
         "name": "User is logged in",
         "aggregatedDurations": {
-          "average": 0.000263901,
-          "median": 0.000263901
+          "average": 0.000304988,
+          "median": 0.000304988
         },
         "durations": [
           {
-            "duration": 0.000263901,
+            "duration": 0.000304988,
             "location": "C:/Users/Kostadin Mladenov/Documents/Coding/IntelliJ Projects/onlineStore/src/test/resources/features/frontend/loginTest.feature:18"
           }
         ]
@@ -59,12 +59,12 @@
       {
         "name": "Message displayed LogOut Successfully",
         "aggregatedDurations": {
-          "average": 0.540519325,
-          "median": 0.540519325
+          "average": 0.497133628,
+          "median": 0.497133628
         },
         "durations": [
           {
-            "duration": 0.540519325,
+            "duration": 0.497133628,
             "location": "C:/Users/Kostadin Mladenov/Documents/Coding/IntelliJ Projects/onlineStore/src/test/resources/features/frontend/loginTest.feature:20"
           }
         ]
@@ -77,12 +77,12 @@
       {
         "name": "Message displayed Login Successfully",
         "aggregatedDurations": {
-          "average": 0.000423111,
-          "median": 0.000423111
+          "average": 0.000342123,
+          "median": 0.000342123
         },
         "durations": [
           {
-            "duration": 0.000423111,
+            "duration": 0.000342123,
             "location": "C:/Users/Kostadin Mladenov/Documents/Coding/IntelliJ Projects/onlineStore/src/test/resources/features/frontend/loginTest.feature:8"
           }
         ]
@@ -95,12 +95,12 @@
       {
         "name": "User navigates to Home Page using chrome",
         "aggregatedDurations": {
-          "average": 6.44757272,
-          "median": 6.44757272
+          "average": 8.814109951,
+          "median": 8.814109951
         },
         "durations": [
           {
-            "duration": 6.44757272,
+            "duration": 8.814109951,
             "location": "C:/Users/Kostadin Mladenov/Documents/Coding/IntelliJ Projects/onlineStore/src/test/resources/features/frontend/loginTest.feature:5"
           }
         ]
@@ -113,17 +113,18 @@
       {
         "name": "User LogOut from the Application",
         "aggregatedDurations": {
-          "average": 0.917277992,
-          "median": 0.917277992
+          "average": 1.458321169,
+          "median": 1.458321169
         },
         "durations": [
           {
-            "duration": 0.917277992,
+            "duration": 1.458321169,
             "location": "C:/Users/Kostadin Mladenov/Documents/Coding/IntelliJ Projects/onlineStore/src/test/resources/features/frontend/loginTest.feature:19"
           }
         ]
       }
     ]
   }
-]}
+]
+  }
 ]

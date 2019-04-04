@@ -1,27 +1,35 @@
 package cucumberWebTest.stepDefinitions;
+
 import cucumber.api.Scenario;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
-import cucumber.api.java.af.En;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import cucumber.api.java8.En;
 import cucumberWebTest.Hooks;
 import cucumberWebTest.config.SpringConfig;
 import cucumberWebTest.frontend.pageObjects.HomePage;
 import cucumberWebTest.frontend.pageObjects.NewRegistrationPage;
 import cucumberWebTest.frontend.pageObjects.UserProfilePage;
+import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.ContextConfiguration;
+import sun.security.util.PendingException;
 
 import java.util.concurrent.TimeUnit;
+
+import static org.testng.Assert.assertEquals;
+import static org.testng.Assert.assertTrue;
 
 
 @SpringBootTest(classes = SpringBootTest.class)
 @ContextConfiguration(classes = SpringConfig.class)
-public class UISteps {
+public class UISteps implements En {
 
     private static HomePage homePage;
     private static NewRegistrationPage newRegistrationPage;
@@ -31,7 +39,7 @@ public class UISteps {
 
 
     @Before
-    public void before(Scenario scenario){
+    public void before(Scenario scenario) {
         System.out.println("\n-------------------------------");
         System.out.println("Staring - " + scenario.getName());
         System.out.println("-------------------------------\n");
@@ -48,19 +56,6 @@ public class UISteps {
 
         driver.get("https://www.epay.bg");
     }
-
-//    Given("^User navigates to Home Page using (.*?)$", (String browser) -> {
-//
-//        driver = Hooks.getDriver(browser);
-//        driver.manage().window().maximize();
-//        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-//
-//        homePage = new HomePage(driver);
-//        userProfilePage = new UserProfilePage(driver);
-//
-//        driver.get("https://www.epay.bg");
-//
-//        });
 
     @When("^User enters UserName$")
     public void User_enters_UserName() throws Throwable {
@@ -91,7 +86,7 @@ public class UISteps {
 
     @When("^User LogOut from the Application$")
     public void User_LogOut_from_the_Application() throws Throwable {
-       // hooks.getWait(driver).until(ExpectedConditions.visibilityOf(userProfilePage.getBtnLogout()));
+        // hooks.getWait(driver).until(ExpectedConditions.visibilityOf(userProfilePage.getBtnLogout()));
         //userProfilePage.getLnkAddCard().click();
         userProfilePage.getBtnLogout().click();
         //driver.findElement(By.id("hidden-exit")).click();
@@ -104,87 +99,78 @@ public class UISteps {
     }
 
 
-    @When("^User clicks on new registration link$")
-    public void User_clicks_on_new_registration_link(){
-        //homePage = new HomePage(driver);
-        homePage.getLinkRegister().click();
-    }
-
-    @And("^User is taken to New Registration page$")
-    public void User_is_taken_to_New_Registration_page(){
-        newRegistrationPage = new NewRegistrationPage(driver);
-
-        newRegistrationPage.getBoxName().sendKeys("name");
-    }
-
-
-    //    Given("^The user is on the new registration page$", () -> {
-//        // Write code here that turns the phrase above into concrete actions
-//        throw new PendingException();
-//    });
-//
-//    When("^User enters Name$", () -> {
-//        // Write code here that turns the phrase above into concrete actions
-//        throw new PendingException();
-//    });
-//
-//    When("^User selects nationality from dropdown$", () -> {
-//        // Write code here that turns the phrase above into concrete actions
-//        throw new PendingException();
-//    });
-//
-//    When("^User enters Personal ID Number$", () -> {
-//        // Write code here that turns the phrase above into concrete actions
-//        throw new PendingException();
-//    });
-//
-//    When("^User enters User Name$", () -> {
-//        // Write code here that turns the phrase above into concrete actions
-//        throw new PendingException();
-//    });
-//
-//    When("^User enters email$", () -> {
-//        // Write code here that turns the phrase above into concrete actions
-//        throw new PendingException();
-//    });
-//
-//    When("^User enters new password$", () -> {
-//        // Write code here that turns the phrase above into concrete actions
-//        throw new PendingException();
-//    });
-//
-//    When("^User confirms password$", () -> {
-//        // Write code here that turns the phrase above into concrete actions
-//        throw new PendingException();
-//    });
-//
-//    When("^User check Terms and Conditions box$", () -> {
-//        // Write code here that turns the phrase above into concrete actions
-//        throw new PendingException();
-//    });
-//
-//    When("^User checks the privacy policy box$", () -> {
-//        // Write code here that turns the phrase above into concrete actions
-//        throw new PendingException();
-//    });
-//
-//    When("^User click on cancel button$", () -> {
-//        // Write code here that turns the phrase above into concrete actions
-//        throw new PendingException();
-//    });
-//
-//    Then("^User is taken to home page$", () -> {
-//        // Write code here that turns the phrase above into concrete actions
-//        throw new PendingException();
-//    });
-
-
-
     @After
-    public void after(Scenario scenario){
+    public void after(Scenario scenario) {
         System.out.println("\n-------------------------------");
         System.out.println(scenario.getName() + " Status - " + scenario.getStatus());
         System.out.println("-------------------------------\n");
+    }
+
+    public UISteps() {
+        newRegistrationPage = new NewRegistrationPage(driver);
+
+        When("^User clicks on new registration link$", () -> {
+            homePage.getLinkRegister().click();
+        });
+
+        Then("^User is taken to New Registration page$", () -> {
+            assertEquals(driver.getCurrentUrl(), ("https://www.epay.bg/v3main/registration"));
+        });
+
+        And("^The user is on the new registration page$", () -> {
+            assertTrue(driver.getTitle().contains("Регистрация"));
+        });
+
+        And("^User enters Name$", () -> {
+            newRegistrationPage.getBoxName().sendKeys("Rumple Stilskin");
+
+        });
+
+        And("^User selects (.*?) nationality from dropdown$", (String country) -> {
+            Select drpCountry = new Select(newRegistrationPage.getDropBoxNationality());
+            drpCountry.selectByVisibleText(country);
+        });
+
+        And("^User enters Personal ID Number (.*?)$", (String egnNumber) -> {
+            newRegistrationPage.getBoxEGN().sendKeys(egnNumber);
+        });
+
+        When("^User enters User Name (.*?)$", (String username) -> {
+            newRegistrationPage.getBoxUsername().sendKeys(username);
+        });
+
+        When("^User enters email (.*?)$", (String email) -> {
+            newRegistrationPage.getBoxEmail().sendKeys(email);
+        });
+
+        When("^User enters new password (.*?)$", (String passwordOne) -> {
+            newRegistrationPage.getBoxPassword().sendKeys(passwordOne);
+        });
+
+        When("^User confirms password (.*?)$", (String passwordTwo) -> {
+            newRegistrationPage.getBoxPassword2().sendKeys(passwordTwo);
+        });
+
+        When("^User check Terms and Conditions box$", () -> {
+            newRegistrationPage.getChkBoxTerms().click();
+            assertTrue(newRegistrationPage.getChkBoxTerms().isSelected());
+        });
+
+        When("^User checks the privacy policy box$", () -> {
+            newRegistrationPage.getChkBoxPersonalData().click();
+            assertTrue(newRegistrationPage.getChkBoxPersonalData().isSelected());
+        });
+
+        When("^User click on cancel button$", () -> {
+            newRegistrationPage.getBtnCancel().click();
+        });
+
+        Then("^User is taken to home page$", () -> {
+            assertEquals(driver.getTitle(), "ePay.bg");
+            driver.close();
+        });
+
+
     }
 
 }

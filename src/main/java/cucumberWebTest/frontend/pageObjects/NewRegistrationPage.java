@@ -31,13 +31,13 @@ public class NewRegistrationPage extends BasePage {
     @FindBy(name = "PASS2")
     private WebElement boxPassword2;
 
-    @FindBy(name = "TERM")
+    @FindBy(name = "TERMS")
     private WebElement chkBoxTerms;
 
     @FindBy(name = "PERSONAL_DATA")
     private WebElement chkBoxPersonalData;
 
-    @FindBy(linkText = "https://www.epay.bg/v3main/")
+    @FindBy(className = "btn btn-epay btn-default")
     private WebElement btnCancel;
 
     public WebElement getBoxName() {
