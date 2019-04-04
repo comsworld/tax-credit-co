@@ -8,18 +8,10 @@ services:
 
 before_script:
   - docker login -u "$CI_REGISTRY_USER" -p "$CI_REGISTRY_PASSWORD" $CI_REGISTRY
+  - docker info
   - apk update
   - apk upgrade
   - apk add python python-dev py-pip build-base
-  - echo "$PEM_FILE" > deploy.pem
-  - echo "$PRODUCTION_DEPLOY" > deploy.sh
-  - chmod 600 deploy.pem
-  - chmod 700 deploy.sh
-  - ./deploy.sh
-  - apk add --update curl && \
-    rm -rf /var/cache/apk/*
-  - curl -L https://github.com/docker/compose/releases/download/1.8.0/docker-compose-`uname -s`-`uname -m` > /usr/local/bin/docker-compose
-  - chmod +x /usr/local/bin/docker-compose
   - pip install docker-compose
 
 run_docker_compose:
