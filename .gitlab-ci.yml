@@ -2,13 +2,14 @@ image: docker:latest
 
 stages:
   - run_docker_compose
+#
+#services:
 
-services:
-  - docker:dind
 
 before_script:
   - docker login -u "$CI_REGISTRY_USER" -p "$CI_REGISTRY_PASSWORD" $CI_REGISTRY
   - docker info
+  - docker pull gitlab/dind
   - apk update
   - apk upgrade
   - apk add python python-dev py-pip build-base
