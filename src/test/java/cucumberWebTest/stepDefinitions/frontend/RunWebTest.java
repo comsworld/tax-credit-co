@@ -23,7 +23,7 @@ import cucumber.api.CucumberOptions;
         "usage:target/UI/cucumber-usage.json", "junit:target/UI/cucumber-results.xml" },
         features = {"C:\\Users\\Kostadin Mladenov\\Documents\\Coding\\IntelliJ Projects\\onlineStore\\src\\test\\resources\\features\\frontend\\"},
         glue = {"cucumberWebTest.stepDefinitions"},
-        tags = {"@UITest"})
+        tags = {"@NewRegistration"})
 
 
 public class RunWebTest extends ExtendedTestNGRunner{
