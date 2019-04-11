@@ -37,7 +37,7 @@ public class NewRegistrationPage extends BasePage {
     @FindBy(name = "PERSONAL_DATA")
     private WebElement chkBoxPersonalData;
 
-    @FindBy(className = "btn btn-epay btn-default")
+    @FindBy(xpath = "//*[@id=\"reg_pers\"]/div/div[8]/a")
     private WebElement btnCancel;
 
     public WebElement getBoxName() {

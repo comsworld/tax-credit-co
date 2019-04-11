@@ -2,30 +2,24 @@ image: docker:latest
 
 stages:
   - run_docker_compose
-#
-#services:
 
+services:
+  - docker:dind
 
 before_script:
   - docker login -u "$CI_REGISTRY_USER" -p "$CI_REGISTRY_PASSWORD" $CI_REGISTRY
-  - docker info
-  - docker pull gitlab/dind
-  - apk update
-  - apk upgrade
-  - apk add python python-dev py-pip build-base
-  - pip install docker-compose
 
 run_docker_compose:
   stage: run_docker_compose
   script:
-#    - apk add --update python python-dev py-pip build-base      # <--
-#    - pip install docker-compose     # <--
-    - docker-compose up -d
-    - mkdir testResults
+    - apk add py-pip
+    - apk add python-dev libffi-dev openssl-dev gcc libc-dev make
+    - pip install docker-compose
+
     - mkdir testResults/API
     - mkdir testResults/UI
     - docker-compose up -d
-    - docker-compose exec -T app mvn test
+    - docker-compose exec -T app mvn test -DsuiteXmlFile=testrunner.xml
     - docker-compose down -v
   artifacts:
     paths:
