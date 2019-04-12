@@ -37,77 +37,65 @@ public class UISteps implements En {
     private static WebDriver driver;
     private static Hooks hooks = new Hooks();
 
-
-    @Before
-    public void before(Scenario scenario) {
-        System.out.println("\n-------------------------------");
-        System.out.println("Staring - " + scenario.getName());
-        System.out.println("-------------------------------\n");
-    }
-
-    @Given("^User navigates to Home Page using (.*?)$")
-    public void User_is_on_Home_Page(String browser) throws Exception {
-        driver = Hooks.getDriver(browser);
-        //driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-
-        homePage = new HomePage(driver);
-        userProfilePage = new UserProfilePage(driver);
-
-        driver.get("https://www.epay.bg");
-    }
-
-    @When("^User enters UserName$")
-    public void User_enters_UserName() throws Throwable {
-
-        homePage.getTxtUsername().sendKeys("comsworld");
-        //driver.findElement(By.id("login_user")).sendKeys("comsworld");
-    }
-
-    @And("^User enters Password$")
-    public void User_enters_Password() throws Throwable {
-
-        homePage.getTxtPassword().sendKeys("Yoana2007");
-        //driver.findElement(By.id("login_pass")).sendKeys("Yoana2007");
-
-        homePage.getBtnLogin().click();
-        //driver.findElement(By.name("submit")).click();
-    }
-
-    @Then("^Message displayed Login Successfully$")
-    public void Message_displayed_Login_Successfully() throws Throwable {
-        System.out.println("Login Successful\n");
-    }
-
-    @Given("^User is logged in$")
-    public void User_is_logged_in() throws Throwable {
-        //driver.getTitle();
-    }
-
-    @When("^User LogOut from the Application$")
-    public void User_LogOut_from_the_Application() throws Throwable {
-        // hooks.getWait(driver).until(ExpectedConditions.visibilityOf(userProfilePage.getBtnLogout()));
-        //userProfilePage.getLnkAddCard().click();
-        userProfilePage.getBtnLogout().click();
-        //driver.findElement(By.id("hidden-exit")).click();
-    }
-
-    @Then("^Message displayed LogOut Successfully$")
-    public void Message_displayed_LogOut_Successfully() throws Throwable {
-        System.out.println("LogOut Successful\n");
-        driver.close();
-    }
-
-
-    @After
-    public void after(Scenario scenario) {
-        System.out.println("\n-------------------------------");
-        System.out.println(scenario.getName() + " Status - " + scenario.getStatus());
-        System.out.println("-------------------------------\n");
-    }
-
+    //    @Before
+//    public void before(Scenario scenario) {
+//        System.out.println("\n-------------------------------");
+//        System.out.println("Staring - " + scenario.getName());
+//        System.out.println("-------------------------------\n");
+//    }
     public UISteps() {
-        newRegistrationPage = new NewRegistrationPage(driver);
+
+        Given("^User navigates to Home Page using (.*?)$", (String browser) -> {
+            driver = Hooks.getDriver(browser);
+            newRegistrationPage = new NewRegistrationPage(driver);
+            homePage = new HomePage(driver);
+            userProfilePage = new UserProfilePage(driver);
+            driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+
+            driver.get("https://www.epay.bg");
+        });
+
+        When("^User enters UserName$", () -> {
+
+            homePage.getTxtUsername().sendKeys("comsworld");
+            //driver.findElement(By.id("login_user")).sendKeys("comsworld");
+        });
+
+        And("^User enters Password$", () -> {
+
+            homePage.getTxtPassword().sendKeys("Yoana2007");
+            //driver.findElement(By.id("login_pass")).sendKeys("Yoana2007");
+
+            homePage.getBtnLogin().click();
+            //driver.findElement(By.name("submit")).click();
+        });
+
+        Then("^Validate username (.*?) is displayed$", (String name) -> {
+            assertEquals(userProfilePage.getUsernameDisplayed().getText(),name);
+        });
+
+        Given("^User is logged in as (.*?)$", (String name) -> {
+            assertEquals(userProfilePage.getUsernameDisplayed().getText(),name);
+
+        });
+
+        When("^User LogOut from the Application$", () -> {
+            userProfilePage.getBtnLogout().click();
+        });
+
+        Then("^Message displayed LogOut Successfully$", () -> {
+            System.out.println("LogOut Successful\n");
+            driver.close();
+        });
+
+
+//    @After
+//    public void after(Scenario scenario) {
+//        System.out.println("\n-------------------------------");
+//        System.out.println(scenario.getName() + " Status - " + scenario.getStatus());
+//        System.out.println("-------------------------------\n");
+//    }
+
 
         When("^User clicks on new registration link$", () -> {
             homePage.getLinkRegister().click();
@@ -169,7 +157,6 @@ public class UISteps implements En {
             assertEquals(driver.getTitle(), "ePay.bg");
             driver.close();
         });
-
 
     }
 

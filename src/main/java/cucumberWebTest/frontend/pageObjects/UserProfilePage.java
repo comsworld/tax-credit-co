@@ -15,11 +15,16 @@ public class UserProfilePage extends BasePage {
     @FindBy(linkText = "https://www.epay.bg/v3main/reg/card")
     private WebElement lnkAddCard;
 
+    @FindBy (xpath = "//*[@id=\"userdata_header\"]/div")
+    private WebElement usernameDisplayed;
+
     public WebElement getLnkAddCard() { return lnkAddCard; }
 
     public WebElement getBtnLogout() {
         return btnLogout;
     }
+
+    public WebElement getUsernameDisplayed() { return usernameDisplayed; }
 }
 
 

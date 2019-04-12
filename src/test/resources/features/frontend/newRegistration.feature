@@ -1,11 +1,11 @@
 @NewRegistration
 Feature: New Registration
 
-  Scenario Outline: User navigates to new registration page
+  Scenario Outline: : User navigates to new registration page
     Given User navigates to Home Page using <browser>
     When User clicks on new registration link
     Then User is taken to New Registration page
-
+#
     Examples:
       |browser|
       |chrome |

@@ -59,33 +59,33 @@ div.content {page-break-after: always;}
 <table>
 	<tr><th></th><th>Passed</th><th>Failed</th><th>Known</th><th>Undefined</th><th>Total</th><th>%Passed</th></tr>
 	<tr><th>Features</th>
-		<td class="passed" id="features_passed">0</td>
+		<td class="passed" id="features_passed">1</td>
 		<td class="failed" id="features_failed">0</td>
 		<td class="known" id="features_known">0</td>
 		<td class="undefined" id="features_undefined">0</td>
-		<td id="features_total">0</td>
+		<td id="features_total">1</td>
 		<td id="features_rate">
-			NaN
+				100%
 		</td>
 	</tr>
 	<tr><th>Scenarios</th>
-		<td class="passed" id="scenarios_passed">0</td>
+		<td class="passed" id="scenarios_passed">1</td>
 		<td class="failed" id="scenarios_failed">0</td>
 		<td class="known" id="scenarios_known">0</td>
 		<td class="undefined" id="scenarios_undefined">0</td>
-		<td id="scenarios_total">0</td>
+		<td id="scenarios_total">1</td>
 		<td id="scenarios_rate">
-			NaN
+				100%
 		</td>
 	</tr>
 	<tr><th>Steps</th>
-		<td class="passed" id="steps_passed">0</td>
+		<td class="passed" id="steps_passed">2</td>
 		<td class="failed" id="steps_failed">0</td>
 		<td class="known" id="steps_known">0</td>
 		<td class="undefined" id="steps_undefined">0</td>
-		<td id="steps_total">0</td>
+		<td id="steps_total">2</td>
 		<td id="steps_rate">
-			NaN
+				100%
 		</td>
 	</tr>
 </table>
@@ -94,11 +94,54 @@ div.content {page-break-after: always;}
 <a id="top"></a><h1>Table of Contents</h1>
 
 <ol>
+<li> <span class="passed"><a href="#feature-2test-for-user-get">Test for user get</a></span>
+	<ol>
+        <li> <span class="passed"><a href="#sc-20-test-for-user-get;test-individual-user-get">Test individual user get</a></span></li>
+    </ol></li>
 </ol>
 
 <h1>Detailed Results Report</h1>
 
 <table width="700px">
+	<tr class="passed"><td colspan="4"><b>Feature:</b> <a id="feature-2test-for-user-get">Test for user get</a></td></tr>
+    <tr class="passed">
+    	<td><small><b>Passed:</b> 1</small></td>
+        <td><small><b>Failed:</b> 0</small></td>
+        <td><small><b>Undefined:</b> 0</small></td>
+        <td><small>Duration: .04s</small></td>
+    </tr>
+	<tr class="passed">
+		<td colspan="4" style="padding-left:20px">
+		<table width="100%">
+				<tr class="passed">
+					<td colspan="4">
+						<b>Scenario:</b> <a id="sc-20-test-for-user-get;test-individual-user-get">Test individual user get</a>
+					</td>
+				</tr>
+                <tr class="passed">
+                	<td><small><b>Passed:</b> 2</small></td>
+                	<td><small><b>Failed:</b> 0</small></td>
+					<td><small><b>Undefined:</b> 0</small></td>
+					<td><small>Duration: .04s</small></td>
+				</tr>
+                <tr class="passed">
+	                <td colspan="4" style="padding-left:20px">
+						<table width="100%">
+                            	<tr class="passed">
+                            		<td><b>Given </b> I request user information for userId 100</td>
+                            		<td width="100">0.04s</td>
+                        		</tr>
+                            	<tr class="passed">
+                            		<td><b>Then </b> Title contains at nam consequatur ea labore ea harum</td>
+                            		<td width="100">0.00s</td>
+                        		</tr>
+						</table>
+					</td>
+				</tr>
+				
+                <tr><td colspan="5"><sup><a href="#top">Back to Table of Contents</a></sup></td></tr>
+		</table>
+	</td></tr><tr><td colspan="5"></td></tr>
 </table>
 
 	</body>

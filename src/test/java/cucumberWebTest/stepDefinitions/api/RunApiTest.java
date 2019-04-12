@@ -21,7 +21,7 @@ import cucumber.api.CucumberOptions;
 @CucumberOptions(plugin = { "html:target/API/cucumber-html-report",
         "json:target/API/cucumber.json", "pretty:target/API/cucumber-pretty.txt",
         "usage:target/API/cucumber-usage.json", "junit:target/API/cucumber-results.xml" },
-        features = {"C:\\Users\\Kostadin Mladenov\\Documents\\Coding\\IntelliJ Projects\\onlineStore\\src\\test\\resources\\features\\frontend\\"},
+        features = {"C:\\Users\\Kostadin Mladenov\\Documents\\Coding\\IntelliJ Projects\\onlineStore\\src\\test\\resources\\features\\"},
         glue = {"cucumberWebTest.stepDefinitions"},
         tags = {"@APITest"})
 
