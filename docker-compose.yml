@@ -51,7 +51,7 @@ services:
     depends_on:
       - seleniumhub
     #      - firefoxnode
-    #      - chromenode
+      - chromenode
     volumes:
       - ./testResults/API:/src/target/API
       - ./testResults/UI:/src/target/UI

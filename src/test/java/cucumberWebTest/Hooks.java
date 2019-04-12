@@ -35,11 +35,11 @@ public class Hooks {
         } else if(browser.equals("local")){
             System.setProperty("webdriver.chrome.driver","drivers/chromedriver");
             driver = new ChromeDriver();
-                DesiredCapabilities caps = new DesiredCapabilities();
+                //DesiredCapabilities caps = new DesiredCapabilities();
                 Capabilities chromeCapabilities = DesiredCapabilities.chrome();
                 driver = new RemoteWebDriver(new URL("http://seleniumhub:4444/wd/hub"),chromeCapabilities);
         }
-
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         return driver;
     }
 }

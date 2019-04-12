@@ -50,7 +50,7 @@ public class UISteps implements En {
             newRegistrationPage = new NewRegistrationPage(driver);
             homePage = new HomePage(driver);
             userProfilePage = new UserProfilePage(driver);
-            driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+
 
             driver.get("https://www.epay.bg");
         });
