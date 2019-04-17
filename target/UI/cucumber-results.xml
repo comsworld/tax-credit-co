@@ -1,36 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="25.756174">
-<testcase classname="Login Action" name="Login with Valid Credentials" time="10.820136">
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="12.756776">
+<testcase classname="Login Action" name="Login with Valid Credentials" time="10.835098">
 <system-out><![CDATA[Given User navigates to Home Page using chrome..............................passed
 When User enters UserName...................................................passed
 And User enters Password....................................................passed
 Then Validate username Kostadin Mladenov is displayed.......................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Login Action" name="LogOut" time="1.815586">
+<testcase classname="Login Action" name="LogOut" time="1.921678">
 <system-out><![CDATA[Given User is logged in as Kostadin Mladenov................................passed
 When User LogOut from the Application.......................................passed
 Then Message displayed LogOut Successfully..................................passed
-]]></system-out>
-</testcase>
-<testcase classname="New Registration" name=": User navigates to new registration page" time="8.877285">
-<system-out><![CDATA[Given User navigates to Home Page using chrome..............................passed
-When User clicks on new registration link...................................passed
-Then User is taken to New Registration page.................................passed
-]]></system-out>
-</testcase>
-<testcase classname="New Registration" name="User fills required fields in New registration form" time="4.243167">
-<system-out><![CDATA[Given The user is on the new registration page..............................passed
-When User enters Name.......................................................passed
-And User selects България nationality from dropdown.........................passed
-And User enters Personal ID Number 7511133333...............................passed
-And User enters User Name SomeUsername......................................passed
-And User enters email test@gmail.com........................................passed
-And User enters new password SomePassword...................................passed
-And User confirms password SomePassword.....................................passed
-And User check Terms and Conditions box.....................................passed
-And User checks the privacy policy box......................................passed
-And User click on cancel button.............................................passed
-Then User is taken to home page.............................................passed
 ]]></system-out>
 </testcase>
 </testsuite>

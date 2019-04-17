@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7419289119,
+              "duration": 7428462053,
               "status": "passed"
             },
             "line": 5,
@@ -30,7 +30,7 @@
           },
           {
             "result": {
-              "duration": 165880428,
+              "duration": 144964288,
               "status": "passed"
             },
             "line": 6,
@@ -42,7 +42,7 @@
           },
           {
             "result": {
-              "duration": 3131376936,
+              "duration": 3059950199,
               "status": "passed"
             },
             "line": 7,
@@ -54,7 +54,7 @@
           },
           {
             "result": {
-              "duration": 85797892,
+              "duration": 177268078,
               "status": "passed"
             },
             "line": 8,
@@ -87,7 +87,7 @@
         "steps": [
           {
             "result": {
-              "duration": 112996697,
+              "duration": 172960722,
               "status": "passed"
             },
             "line": 19,
@@ -105,7 +105,7 @@
           },
           {
             "result": {
-              "duration": 1277439101,
+              "duration": 1334636509,
               "status": "passed"
             },
             "line": 20,
@@ -117,7 +117,7 @@
           },
           {
             "result": {
-              "duration": 417249021,
+              "duration": 406700481,
               "status": "passed"
             },
             "line": 21,
@@ -150,277 +150,5 @@
         }
       }
     ]
-  },
-  {
-    "line": 2,
-    "elements": [
-      {
-        "line": 11,
-        "name": ": User navigates to new registration page",
-        "description": "",
-        "id": "new-registration;:-user-navigates-to-new-registration-page;;2",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 7094877987,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "User navigates to Home Page using chrome",
-            "match": {
-              "arguments": [
-                {
-                  "val": "chrome",
-                  "offset": 34
-                }
-              ],
-              "location": "UISteps.java:48"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 1755377085,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "User clicks on new registration link",
-            "match": {
-              "location": "UISteps.java:100"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 14450957,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "User is taken to New Registration page",
-            "match": {
-              "location": "UISteps.java:104"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@NewRegistration"
-          }
-        ]
-      },
-      {
-        "line": 15,
-        "name": "User fills required fields in New registration form",
-        "description": "",
-        "id": "new-registration;user-fills-required-fields-in-new-registration-form",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 5523356,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "The user is on the new registration page",
-            "match": {
-              "location": "UISteps.java:108"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 545361167,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "User enters Name",
-            "match": {
-              "location": "UISteps.java:112"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 139280538,
-              "status": "passed"
-            },
-            "line": 18,
-            "name": "User selects България nationality from dropdown",
-            "match": {
-              "arguments": [
-                {
-                  "val": "България",
-                  "offset": 13
-                }
-              ],
-              "location": "UISteps.java:117"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 297206797,
-              "status": "passed"
-            },
-            "line": 19,
-            "name": "User enters Personal ID Number 7511133333",
-            "match": {
-              "arguments": [
-                {
-                  "val": "7511133333",
-                  "offset": 31
-                }
-              ],
-              "location": "UISteps.java:122"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 254603751,
-              "status": "passed"
-            },
-            "line": 20,
-            "name": "User enters User Name SomeUsername",
-            "match": {
-              "arguments": [
-                {
-                  "val": "SomeUsername",
-                  "offset": 22
-                }
-              ],
-              "location": "UISteps.java:126"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 427509559,
-              "status": "passed"
-            },
-            "line": 21,
-            "name": "User enters email test@gmail.com",
-            "match": {
-              "arguments": [
-                {
-                  "val": "test@gmail.com",
-                  "offset": 18
-                }
-              ],
-              "location": "UISteps.java:130"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 348547023,
-              "status": "passed"
-            },
-            "line": 22,
-            "name": "User enters new password SomePassword",
-            "match": {
-              "arguments": [
-                {
-                  "val": "SomePassword",
-                  "offset": 25
-                }
-              ],
-              "location": "UISteps.java:134"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 259052144,
-              "status": "passed"
-            },
-            "line": 23,
-            "name": "User confirms password SomePassword",
-            "match": {
-              "arguments": [
-                {
-                  "val": "SomePassword",
-                  "offset": 23
-                }
-              ],
-              "location": "UISteps.java:138"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 245510224,
-              "status": "passed"
-            },
-            "line": 24,
-            "name": "User check Terms and Conditions box",
-            "match": {
-              "location": "UISteps.java:142"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 195811873,
-              "status": "passed"
-            },
-            "line": 25,
-            "name": "User checks the privacy policy box",
-            "match": {
-              "location": "UISteps.java:147"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 967205939,
-              "status": "passed"
-            },
-            "line": 26,
-            "name": "User click on cancel button",
-            "match": {
-              "location": "UISteps.java:152"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 550350400,
-              "status": "passed"
-            },
-            "line": 27,
-            "name": "User is taken to home page",
-            "match": {
-              "location": "UISteps.java:156"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@NewRegistration"
-          }
-        ]
-      }
-    ],
-    "name": "New Registration",
-    "description": "",
-    "id": "new-registration",
-    "keyword": "Feature",
-    "uri": "C:/Users/Kostadin Mladenov/Documents/Coding/IntelliJ Projects/onlineStore/src/test/resources/features/frontend/newRegistration.feature",
-    "tags": [
-      {
-        "name": "@NewRegistration",
-        "type": "Tag",
-        "location": {
-          "line": 1,
-          "column": 1
-        }
-      }
-    ]
   }
-]]
+]

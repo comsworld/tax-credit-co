@@ -1,34 +1,16 @@
 [
   {
-    "source": "^User enters email (.*?)$",
-    "steps": [
-      {
-        "name": "User enters email test@gmail.com",
-        "aggregatedDurations": {
-          "average": 0.427509559,
-          "median": 0.427509559
-        },
-        "durations": [
-          {
-            "duration": 0.427509559,
-            "location": "C:/Users/Kostadin Mladenov/Documents/Coding/IntelliJ Projects/onlineStore/src/test/resources/features/frontend/newRegistration.feature:21"
-          }
-        ]
-      }
-    ]
-  },
-  {
     "source": "^Validate username (.*?) is displayed$",
     "steps": [
       {
         "name": "Validate username Kostadin Mladenov is displayed",
         "aggregatedDurations": {
-          "average": 0.085797892,
-          "median": 0.085797892
+          "average": 0.177268078,
+          "median": 0.177268078
         },
         "durations": [
           {
-            "duration": 0.085797892,
+            "duration": 0.177268078,
             "location": "C:/Users/Kostadin Mladenov/Documents/Coding/IntelliJ Projects/onlineStore/src/test/resources/features/frontend/loginTest.feature:8"
           }
         ]
@@ -41,103 +23,13 @@
       {
         "name": "User enters UserName",
         "aggregatedDurations": {
-          "average": 0.165880428,
-          "median": 0.165880428
+          "average": 0.144964288,
+          "median": 0.144964288
         },
         "durations": [
           {
-            "duration": 0.165880428,
+            "duration": 0.144964288,
             "location": "C:/Users/Kostadin Mladenov/Documents/Coding/IntelliJ Projects/onlineStore/src/test/resources/features/frontend/loginTest.feature:6"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "^User check Terms and Conditions box$",
-    "steps": [
-      {
-        "name": "User check Terms and Conditions box",
-        "aggregatedDurations": {
-          "average": 0.245510224,
-          "median": 0.245510224
-        },
-        "durations": [
-          {
-            "duration": 0.245510224,
-            "location": "C:/Users/Kostadin Mladenov/Documents/Coding/IntelliJ Projects/onlineStore/src/test/resources/features/frontend/newRegistration.feature:24"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "^The user is on the new registration page$",
-    "steps": [
-      {
-        "name": "The user is on the new registration page",
-        "aggregatedDurations": {
-          "average": 0.005523356,
-          "median": 0.005523356
-        },
-        "durations": [
-          {
-            "duration": 0.005523356,
-            "location": "C:/Users/Kostadin Mladenov/Documents/Coding/IntelliJ Projects/onlineStore/src/test/resources/features/frontend/newRegistration.feature:16"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "^User is taken to New Registration page$",
-    "steps": [
-      {
-        "name": "User is taken to New Registration page",
-        "aggregatedDurations": {
-          "average": 0.014450957,
-          "median": 0.014450957
-        },
-        "durations": [
-          {
-            "duration": 0.014450957,
-            "location": "C:/Users/Kostadin Mladenov/Documents/Coding/IntelliJ Projects/onlineStore/src/test/resources/features/frontend/newRegistration.feature:7"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "^User checks the privacy policy box$",
-    "steps": [
-      {
-        "name": "User checks the privacy policy box",
-        "aggregatedDurations": {
-          "average": 0.195811873,
-          "median": 0.195811873
-        },
-        "durations": [
-          {
-            "duration": 0.195811873,
-            "location": "C:/Users/Kostadin Mladenov/Documents/Coding/IntelliJ Projects/onlineStore/src/test/resources/features/frontend/newRegistration.feature:25"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "^User click on cancel button$",
-    "steps": [
-      {
-        "name": "User click on cancel button",
-        "aggregatedDurations": {
-          "average": 0.967205939,
-          "median": 0.967205939
-        },
-        "durations": [
-          {
-            "duration": 0.967205939,
-            "location": "C:/Users/Kostadin Mladenov/Documents/Coding/IntelliJ Projects/onlineStore/src/test/resources/features/frontend/newRegistration.feature:26"
           }
         ]
       }
@@ -149,67 +41,13 @@
       {
         "name": "User enters Password",
         "aggregatedDurations": {
-          "average": 3.131376936,
-          "median": 3.131376936
+          "average": 3.059950199,
+          "median": 3.059950199
         },
         "durations": [
           {
-            "duration": 3.131376936,
+            "duration": 3.059950199,
             "location": "C:/Users/Kostadin Mladenov/Documents/Coding/IntelliJ Projects/onlineStore/src/test/resources/features/frontend/loginTest.feature:7"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "^User enters Name$",
-    "steps": [
-      {
-        "name": "User enters Name",
-        "aggregatedDurations": {
-          "average": 0.545361167,
-          "median": 0.545361167
-        },
-        "durations": [
-          {
-            "duration": 0.545361167,
-            "location": "C:/Users/Kostadin Mladenov/Documents/Coding/IntelliJ Projects/onlineStore/src/test/resources/features/frontend/newRegistration.feature:17"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "^User enters Personal ID Number (.*?)$",
-    "steps": [
-      {
-        "name": "User enters Personal ID Number 7511133333",
-        "aggregatedDurations": {
-          "average": 0.297206797,
-          "median": 0.297206797
-        },
-        "durations": [
-          {
-            "duration": 0.297206797,
-            "location": "C:/Users/Kostadin Mladenov/Documents/Coding/IntelliJ Projects/onlineStore/src/test/resources/features/frontend/newRegistration.feature:19"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "^User enters new password (.*?)$",
-    "steps": [
-      {
-        "name": "User enters new password SomePassword",
-        "aggregatedDurations": {
-          "average": 0.348547023,
-          "median": 0.348547023
-        },
-        "durations": [
-          {
-            "duration": 0.348547023,
-            "location": "C:/Users/Kostadin Mladenov/Documents/Coding/IntelliJ Projects/onlineStore/src/test/resources/features/frontend/newRegistration.feature:22"
           }
         ]
       }
@@ -221,49 +59,13 @@
       {
         "name": "Message displayed LogOut Successfully",
         "aggregatedDurations": {
-          "average": 0.417249021,
-          "median": 0.417249021
+          "average": 0.406700481,
+          "median": 0.406700481
         },
         "durations": [
           {
-            "duration": 0.417249021,
+            "duration": 0.406700481,
             "location": "C:/Users/Kostadin Mladenov/Documents/Coding/IntelliJ Projects/onlineStore/src/test/resources/features/frontend/loginTest.feature:21"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "^User enters User Name (.*?)$",
-    "steps": [
-      {
-        "name": "User enters User Name SomeUsername",
-        "aggregatedDurations": {
-          "average": 0.254603751,
-          "median": 0.254603751
-        },
-        "durations": [
-          {
-            "duration": 0.254603751,
-            "location": "C:/Users/Kostadin Mladenov/Documents/Coding/IntelliJ Projects/onlineStore/src/test/resources/features/frontend/newRegistration.feature:20"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "^User is taken to home page$",
-    "steps": [
-      {
-        "name": "User is taken to home page",
-        "aggregatedDurations": {
-          "average": 0.5503504,
-          "median": 0.5503504
-        },
-        "durations": [
-          {
-            "duration": 0.5503504,
-            "location": "C:/Users/Kostadin Mladenov/Documents/Coding/IntelliJ Projects/onlineStore/src/test/resources/features/frontend/newRegistration.feature:27"
           }
         ]
       }
@@ -275,31 +77,13 @@
       {
         "name": "User is logged in as Kostadin Mladenov",
         "aggregatedDurations": {
-          "average": 0.112996697,
-          "median": 0.112996697
+          "average": 0.172960722,
+          "median": 0.172960722
         },
         "durations": [
           {
-            "duration": 0.112996697,
+            "duration": 0.172960722,
             "location": "C:/Users/Kostadin Mladenov/Documents/Coding/IntelliJ Projects/onlineStore/src/test/resources/features/frontend/loginTest.feature:19"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "^User confirms password (.*?)$",
-    "steps": [
-      {
-        "name": "User confirms password SomePassword",
-        "aggregatedDurations": {
-          "average": 0.259052144,
-          "median": 0.259052144
-        },
-        "durations": [
-          {
-            "duration": 0.259052144,
-            "location": "C:/Users/Kostadin Mladenov/Documents/Coding/IntelliJ Projects/onlineStore/src/test/resources/features/frontend/newRegistration.feature:23"
           }
         ]
       }
@@ -311,35 +95,13 @@
       {
         "name": "User navigates to Home Page using chrome",
         "aggregatedDurations": {
-          "average": 7.257083553,
-          "median": 7.257083553
+          "average": 7.428462053,
+          "median": 7.428462053
         },
         "durations": [
           {
-            "duration": 7.419289119,
+            "duration": 7.428462053,
             "location": "C:/Users/Kostadin Mladenov/Documents/Coding/IntelliJ Projects/onlineStore/src/test/resources/features/frontend/loginTest.feature:5"
-          },
-          {
-            "duration": 7.094877987,
-            "location": "C:/Users/Kostadin Mladenov/Documents/Coding/IntelliJ Projects/onlineStore/src/test/resources/features/frontend/newRegistration.feature:5"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "^User clicks on new registration link$",
-    "steps": [
-      {
-        "name": "User clicks on new registration link",
-        "aggregatedDurations": {
-          "average": 1.755377085,
-          "median": 1.755377085
-        },
-        "durations": [
-          {
-            "duration": 1.755377085,
-            "location": "C:/Users/Kostadin Mladenov/Documents/Coding/IntelliJ Projects/onlineStore/src/test/resources/features/frontend/newRegistration.feature:6"
           }
         ]
       }
@@ -351,35 +113,16 @@
       {
         "name": "User LogOut from the Application",
         "aggregatedDurations": {
-          "average": 1.277439101,
-          "median": 1.277439101
+          "average": 1.334636509,
+          "median": 1.334636509
         },
         "durations": [
           {
-            "duration": 1.277439101,
+            "duration": 1.334636509,
             "location": "C:/Users/Kostadin Mladenov/Documents/Coding/IntelliJ Projects/onlineStore/src/test/resources/features/frontend/loginTest.feature:20"
           }
         ]
       }
     ]
-  },
-  {
-    "source": "^User selects (.*?) nationality from dropdown$",
-    "steps": [
-      {
-        "name": "User selects България nationality from dropdown",
-        "aggregatedDurations": {
-          "average": 0.139280538,
-          "median": 0.139280538
-        },
-        "durations": [
-          {
-            "duration": 0.139280538,
-            "location": "C:/Users/Kostadin Mladenov/Documents/Coding/IntelliJ Projects/onlineStore/src/test/resources/features/frontend/newRegistration.feature:18"
-          }
-        ]
-      }
-    ]
   }
-]
 ]

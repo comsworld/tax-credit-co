@@ -9,8 +9,8 @@ Feature: Login Action
 
     Examples:
     |browser|
-#    |local  |
-    |chrome |
+    |local  |
+#    |chrome |
 #    |firefox|
 #    |ie     |
 

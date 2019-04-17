@@ -3,9 +3,30 @@
   <component name="ChangeListManager">
     <list default="true" id="ad4f5f7a-942e-42f1-ae56-1a04dfe73052" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/cucumberWebTest/stepDefinitions/frontend/RunWebTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberWebTest/stepDefinitions/frontend/RunWebTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/frontend/loginTest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/frontend/loginTest.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/UI/cucumber-html-report/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/UI/cucumber-html-report/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/UI/cucumber-pretty.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/UI/cucumber-pretty.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/UI/cucumber-results-coverage.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/UI/cucumber-results-coverage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/UI/cucumber-results-coverage.html.bak.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/UI/cucumber-results-coverage.html.bak.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/UI/cucumber-results-coverage.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/target/UI/cucumber-results-coverage.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/UI/cucumber-results-feature-overview-dump.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/UI/cucumber-results-feature-overview-dump.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/UI/cucumber-results-feature-overview.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/UI/cucumber-results-feature-overview.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/UI/cucumber-results-feature-overview.html.bak.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/UI/cucumber-results-feature-overview.html.bak.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/UI/cucumber-results-feature-overview.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/target/UI/cucumber-results-feature-overview.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/UI/cucumber-results-test-results.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/UI/cucumber-results-test-results.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/UI/cucumber-results-test-results.html.bak.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/UI/cucumber-results-test-results.html.bak.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/UI/cucumber-results-test-results.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/target/UI/cucumber-results-test-results.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/UI/cucumber-results-usage.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/UI/cucumber-results-usage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/UI/cucumber-results-usage.html.bak.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/UI/cucumber-results-usage.html.bak.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/UI/cucumber-results-usage.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/target/UI/cucumber-results-usage.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/UI/cucumber-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/UI/cucumber-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/UI/cucumber-usage.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/UI/cucumber-usage.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/UI/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/UI/cucumber.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cucumberWebTest/frontend/pageObjects/UserProfilePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cucumberWebTest/frontend/pageObjects/UserProfilePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/cucumberWebTest/Hooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/cucumberWebTest/Hooks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/cucumberWebTest/stepDefinitions/UISteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/cucumberWebTest/stepDefinitions/UISteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/cucumberWebTest/stepDefinitions/api/RunApiTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/cucumberWebTest/stepDefinitions/api/RunApiTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/cucumberWebTest/stepDefinitions/frontend/RunWebTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/cucumberWebTest/stepDefinitions/frontend/RunWebTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -62,10 +83,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docker-compose.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
+            <state relative-caret-position="-186">
               <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
             </state>
           </provider>
@@ -101,11 +122,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/cucumberWebTest/stepDefinitions/frontend/RunWebTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="13" column="58" lean-forward="true" selection-start-line="13" selection-start-column="58" selection-end-line="13" selection-end-column="58" />
+            <state relative-caret-position="374">
+              <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -156,8 +177,8 @@
         <option value="$PROJECT_DIR$/src/test/java/cucumberWebTest/stepDefinitions/api/RunApiTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/cucumberWebTest/frontend/pageObjects/UserProfilePage.java" />
         <option value="$PROJECT_DIR$/src/test/resources/features/frontend/loginTest.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/cucumberWebTest/stepDefinitions/frontend/RunWebTest.java" />
         <option value="$PROJECT_DIR$/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/src/test/java/cucumberWebTest/stepDefinitions/frontend/RunWebTest.java" />
       </list>
     </option>
   </component>
@@ -378,12 +399,6 @@
             </path>
             <path>
               <item name="onlineStore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="onlineStore" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="UI" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="onlineStore" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -397,7 +412,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555521477115" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555532167967" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -542,7 +557,7 @@
       <workItem from="1554088924598" duration="10150000" />
       <workItem from="1554273592279" duration="5470000" />
       <workItem from="1554962681126" duration="27592000" />
-      <workItem from="1555479825112" duration="4818000" />
+      <workItem from="1555479825112" duration="5495000" />
     </task>
     <task id="LOCAL-00001" summary="changing mvn command">
       <created>1554348170420</created>
@@ -684,7 +699,14 @@
       <option name="project" value="LOCAL" />
       <updated>1555516455416</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Updated docker-compose chrome resolution">
+      <created>1555521844408</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1555521844408</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -720,7 +742,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70334000" />
+    <option name="totallyTimeSpent" value="71011000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1549" height="877" extended-state="6" />
@@ -781,7 +803,8 @@
     <MESSAGE value="Updated remote browser driver" />
     <MESSAGE value="Updated runner features path" />
     <MESSAGE value="Updated UserProfilePage logout xpath" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated UserProfilePage logout xpath" />
+    <MESSAGE value="Updated docker-compose chrome resolution" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated docker-compose chrome resolution" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/target/surefire-reports/cucumberWebTest.stepDefinitions.frontend.RunWebTest/Command line test.html">
@@ -1019,16 +1042,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/cucumberWebTest/stepDefinitions/frontend/RunWebTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="13" column="58" lean-forward="true" selection-start-line="13" selection-start-column="58" selection-end-line="13" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/features/frontend/loginTest.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -1038,8 +1051,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/docker-compose.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
+        <state relative-caret-position="-186">
           <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/cucumberWebTest/stepDefinitions/frontend/RunWebTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

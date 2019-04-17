@@ -21,34 +21,3 @@ Feature: Login Action
     [32mGiven [0m[32mUser is logged in as [0m[32m[1mKostadin Mladenov[0m [90m# UISteps.java:77[0m
     [32mWhen [0m[32mUser LogOut from the Application[0m        [90m# UISteps.java:82[0m
     [32mThen [0m[32mMessage displayed LogOut Successfully[0m   [90m# UISteps.java:86[0m
-
-@NewRegistration
-Feature: New Registration
-
-  Scenario Outline: : User navigates to new registration page [90m# C:/Users/Kostadin Mladenov/Documents/Coding/IntelliJ Projects/onlineStore/src/test/resources/features/frontend/newRegistration.feature:4[0m
-    [36mGiven User navigates to Home Page using <browser>[0m
-    [36mWhen User clicks on new registration link[0m
-    [36mThen User is taken to New Registration page[0m
-
-    Examples: 
-
-  @NewRegistration
-  Scenario Outline: : User navigates to new registration page [90m# C:/Users/Kostadin Mladenov/Documents/Coding/IntelliJ Projects/onlineStore/src/test/resources/features/frontend/newRegistration.feature:11[0m
-    [32mGiven [0m[32mUser navigates to Home Page using [0m[32m[1mchrome[0m            [90m# UISteps.java:48[0m
-    [32mWhen [0m[32mUser clicks on new registration link[0m                 [90m# UISteps.java:100[0m
-    [32mThen [0m[32mUser is taken to New Registration page[0m               [90m# UISteps.java:104[0m
-
-  @NewRegistration
-  Scenario: User fills required fields in New registration form [90m# C:/Users/Kostadin Mladenov/Documents/Coding/IntelliJ Projects/onlineStore/src/test/resources/features/frontend/newRegistration.feature:15[0m
-    [32mGiven [0m[32mThe user is on the new registration page[0m              [90m# UISteps.java:108[0m
-    [32mWhen [0m[32mUser enters Name[0m                                       [90m# UISteps.java:112[0m
-    [32mAnd [0m[32mUser selects [0m[32m[1mБългария[0m[32m nationality from dropdown[0m         [90m# UISteps.java:117[0m
-    [32mAnd [0m[32mUser enters Personal ID Number [0m[32m[1m7511133333[0m               [90m# UISteps.java:122[0m
-    [32mAnd [0m[32mUser enters User Name [0m[32m[1mSomeUsername[0m                      [90m# UISteps.java:126[0m
-    [32mAnd [0m[32mUser enters email [0m[32m[1mtest@gmail.com[0m                        [90m# UISteps.java:130[0m
-    [32mAnd [0m[32mUser enters new password [0m[32m[1mSomePassword[0m                   [90m# UISteps.java:134[0m
-    [32mAnd [0m[32mUser confirms password [0m[32m[1mSomePassword[0m                     [90m# UISteps.java:138[0m
-    [32mAnd [0m[32mUser check Terms and Conditions box[0m                     [90m# UISteps.java:142[0m
-    [32mAnd [0m[32mUser checks the privacy policy box[0m                      [90m# UISteps.java:147[0m
-    [32mAnd [0m[32mUser click on cancel button[0m                             [90m# UISteps.java:152[0m
-    [32mThen [0m[32mUser is taken to home page[0m                             [90m# UISteps.java:156[0m
