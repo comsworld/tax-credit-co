@@ -25,8 +25,8 @@ services:
     image: selenium/node-chrome
     environment:
       HUB_HOST: seleniumhub
-      SCREEN_WIDTH: 2880
-      SCREEN_HEIGHT: 1800
+      SCREEN_WIDTH: 1024
+      SCREEN_HEIGHT: 768
     depends_on:
       - seleniumhub
     ports:
