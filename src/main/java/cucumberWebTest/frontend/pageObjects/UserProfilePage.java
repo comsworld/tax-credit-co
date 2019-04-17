@@ -9,7 +9,7 @@ public class UserProfilePage extends BasePage {
         super(driver);
     }
 
-    @FindBy(id = "hidden-exit")
+    @FindBy(xpath = "//*[@id=\"hidden-exit\"]/span/a")
     private WebElement btnLogout;
 
     @FindBy(linkText = "https://www.epay.bg/v3main/reg/card")
