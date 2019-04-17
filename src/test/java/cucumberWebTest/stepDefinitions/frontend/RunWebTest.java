@@ -3,7 +3,6 @@ package cucumberWebTest.stepDefinitions.frontend;
 import com.github.mkolisnyk.cucumber.runner.ExtendedTestNGRunner;
 import com.github.mkolisnyk.cucumber.runner.ExtendedCucumberOptions;
 import cucumber.api.CucumberOptions;
-import org.testng.annotations.DataProvider;
 
 
 @ExtendedCucumberOptions(jsonReport = "target/UI/cucumber.json",
