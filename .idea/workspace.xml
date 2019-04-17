@@ -3,23 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ad4f5f7a-942e-42f1-ae56-1a04dfe73052" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberWebTest/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberWebTest/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/UI/cucumber-pretty.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/UI/cucumber-pretty.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/UI/cucumber-results-coverage.html.bak.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/UI/cucumber-results-coverage.html.bak.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/UI/cucumber-results-coverage.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/target/UI/cucumber-results-coverage.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/UI/cucumber-results-feature-overview.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/UI/cucumber-results-feature-overview.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/UI/cucumber-results-feature-overview.html.bak.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/UI/cucumber-results-feature-overview.html.bak.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/UI/cucumber-results-feature-overview.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/target/UI/cucumber-results-feature-overview.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/UI/cucumber-results-test-results.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/UI/cucumber-results-test-results.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/UI/cucumber-results-test-results.html.bak.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/UI/cucumber-results-test-results.html.bak.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/UI/cucumber-results-test-results.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/target/UI/cucumber-results-test-results.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/UI/cucumber-results-usage.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/UI/cucumber-results-usage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/UI/cucumber-results-usage.html.bak.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/UI/cucumber-results-usage.html.bak.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/UI/cucumber-results-usage.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/target/UI/cucumber-results-usage.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/UI/cucumber-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/UI/cucumber-results.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/UI/cucumber-usage.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/UI/cucumber-usage.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/UI/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/UI/cucumber.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/frontend/loginTest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/frontend/loginTest.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberWebTest/stepDefinitions/frontend/RunWebTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberWebTest/stepDefinitions/frontend/RunWebTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,8 +17,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/cucumberWebTest/Hooks.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="444">
-              <caret line="36" column="14" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
+            <state relative-caret-position="563">
+              <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -63,10 +47,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docker-compose.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="816">
+            <state relative-caret-position="478">
               <caret line="51" column="19" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="19" />
             </state>
           </provider>
@@ -93,8 +77,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitlab-ci.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="18" selection-start-line="11" selection-end-line="11" selection-end-column="18" />
+            <state relative-caret-position="459">
+              <caret line="27" column="22" lean-forward="true" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -123,11 +107,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Dockerfile">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/cucumberWebTest/stepDefinitions/frontend/RunWebTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+            <state relative-caret-position="85">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -160,11 +147,11 @@
         <option value="$PROJECT_DIR$/src/main/java/cucumberWebTest/frontend/pageObjects/UserProfilePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/cucumberWebTest/stepDefinitions/api/RunApiTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/cucumberWebTest/stepDefinitions/frontend/RunWebTest.java" />
         <option value="$PROJECT_DIR$/src/test/resources/features/frontend/loginTest.feature" />
         <option value="$PROJECT_DIR$/src/test/java/cucumberWebTest/stepDefinitions/UISteps.java" />
         <option value="$PROJECT_DIR$/docker-compose.yml" />
         <option value="$PROJECT_DIR$/src/test/java/cucumberWebTest/Hooks.java" />
+        <option value="$PROJECT_DIR$/src/test/java/cucumberWebTest/stepDefinitions/frontend/RunWebTest.java" />
       </list>
     </option>
   </component>
@@ -389,7 +376,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555474618348" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555477376429" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -533,7 +520,7 @@
       <workItem from="1553478602781" duration="21141000" />
       <workItem from="1554088924598" duration="10150000" />
       <workItem from="1554273592279" duration="5470000" />
-      <workItem from="1554962681126" duration="25737000" />
+      <workItem from="1554962681126" duration="27158000" />
     </task>
     <task id="LOCAL-00001" summary="changing mvn command">
       <created>1554348170420</created>
@@ -626,7 +613,14 @@
       <option name="project" value="LOCAL" />
       <updated>1555048635153</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Updated remote browser driver">
+      <created>1555475511161</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1555475511161</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -662,7 +656,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63661000" />
+    <option name="totallyTimeSpent" value="65082000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1549" height="877" extended-state="6" />
@@ -853,16 +847,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/cucumberWebTest/stepDefinitions/frontend/RunWebTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="25" column="27" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/features/frontend/loginTest.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -947,25 +931,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitlab-ci.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="18" selection-start-line="11" selection-end-line="11" selection-end-column="18" />
+        <state relative-caret-position="459">
+          <caret line="27" column="22" lean-forward="true" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="478">
+          <caret line="51" column="19" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/cucumberWebTest/Hooks.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="36" column="14" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
+        <state relative-caret-position="563">
+          <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/cucumberWebTest/stepDefinitions/frontend/RunWebTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="51" column="19" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="19" />
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
