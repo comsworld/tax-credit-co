@@ -10,14 +10,14 @@ Feature: Login Action
     Examples: 
 
   @LoginTest
-  Scenario Outline: Login with Valid Credentials          [90m# C:/Users/Kostadin Mladenov/Documents/Coding/IntelliJ Projects/onlineStore/src/test/resources/features/frontend/loginTest.feature:12[0m
+  Scenario Outline: Login with Valid Credentials          [90m# C:/Users/Kostadin Mladenov/Documents/Coding/IntelliJ Projects/onlineStore/src/test/resources/features/frontend/loginTest.feature:13[0m
     [32mGiven [0m[32mUser navigates to Home Page using [0m[32m[1mchrome[0m        [90m# UISteps.java:48[0m
     [32mWhen [0m[32mUser enters UserName[0m                             [90m# UISteps.java:58[0m
     [32mAnd [0m[32mUser enters Password[0m                              [90m# UISteps.java:64[0m
     [32mThen [0m[32mValidate username [0m[32m[1mKostadin Mladenov[0m[32m is displayed[0m [90m# UISteps.java:73[0m
 
   @LoginTest
-  Scenario: LogOut                               [90m# C:/Users/Kostadin Mladenov/Documents/Coding/IntelliJ Projects/onlineStore/src/test/resources/features/frontend/loginTest.feature:17[0m
+  Scenario: LogOut                               [90m# C:/Users/Kostadin Mladenov/Documents/Coding/IntelliJ Projects/onlineStore/src/test/resources/features/frontend/loginTest.feature:18[0m
     [32mGiven [0m[32mUser is logged in as [0m[32m[1mKostadin Mladenov[0m [90m# UISteps.java:77[0m
     [32mWhen [0m[32mUser LogOut from the Application[0m        [90m# UISteps.java:82[0m
     [32mThen [0m[32mMessage displayed LogOut Successfully[0m   [90m# UISteps.java:86[0m

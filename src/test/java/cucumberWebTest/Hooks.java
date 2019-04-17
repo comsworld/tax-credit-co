@@ -34,7 +34,7 @@ public class Hooks {
             driver = new FirefoxDriver();
         } else if(browser.equals("local")){
             System.setProperty("webdriver.chrome.driver","drivers/chromedriver");
-            driver = new ChromeDriver();
+            //driver = new ChromeDriver();
                 //DesiredCapabilities caps = new DesiredCapabilities();
                 Capabilities chromeCapabilities = DesiredCapabilities.chrome();
                 driver = new RemoteWebDriver(new URL("http://seleniumhub:4444/wd/hub"),chromeCapabilities);

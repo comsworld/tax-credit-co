@@ -1,24 +1,24 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="24.681234">
-<testcase classname="Login Action" name="Login with Valid Credentials" time="10.363785">
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="25.756174">
+<testcase classname="Login Action" name="Login with Valid Credentials" time="10.820136">
 <system-out><![CDATA[Given User navigates to Home Page using chrome..............................passed
 When User enters UserName...................................................passed
 And User enters Password....................................................passed
 Then Validate username Kostadin Mladenov is displayed.......................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Login Action" name="LogOut" time="1.877406">
+<testcase classname="Login Action" name="LogOut" time="1.815586">
 <system-out><![CDATA[Given User is logged in as Kostadin Mladenov................................passed
 When User LogOut from the Application.......................................passed
 Then Message displayed LogOut Successfully..................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="New Registration" name=": User navigates to new registration page" time="8.272532">
+<testcase classname="New Registration" name=": User navigates to new registration page" time="8.877285">
 <system-out><![CDATA[Given User navigates to Home Page using chrome..............................passed
 When User clicks on new registration link...................................passed
 Then User is taken to New Registration page.................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="New Registration" name="User fills required fields in New registration form" time="4.167511">
+<testcase classname="New Registration" name="User fills required fields in New registration form" time="4.243167">
 <system-out><![CDATA[Given The user is on the new registration page..............................passed
 When User enters Name.......................................................passed
 And User selects България nationality from dropdown.........................passed
