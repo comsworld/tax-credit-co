@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.779766">
-<testcase classname="Test for user get" name="Test individual user get" time="0.779766">
-<system-out><![CDATA[Given I request user information for userId 100.............................passed
-Then Title contains at nam consequatur ea labore ea harum...................passed
-]]></system-out>
-</testcase>
-</testsuite>

@@ -1,7 +1,0 @@
-@APITest
-Feature: Test for user get
-
-  @APITest
-  Scenario: Test individual user get                          [90m# C:/Users/Kostadin Mladenov/Documents/Coding/IntelliJ Projects/onlineStore/src/test/resources/features/backend/Users.feature:20[0m
-    [32mGiven [0m[32mI request user information for userId [0m[32m[1m100[0m           [90m# APIUserSteps.java:54[0m
-    [32mThen [0m[32mTitle contains [0m[32m[1mat nam consequatur ea labore ea harum[0m [90m# APIUserSteps.java:69[0m

@@ -2,31 +2,446 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad4f5f7a-942e-42f1-ae56-1a04dfe73052" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/contactPageTest.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taxCreditCo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testrunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitlab-ci.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__batik_batik_awt_util_1_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__batik_batik_bridge_1_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__batik_batik_css_1_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__batik_batik_dom_1_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__batik_batik_ext_1_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__batik_batik_gui_util_1_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__batik_batik_gvt_1_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__batik_batik_parser_1_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__batik_batik_script_1_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__batik_batik_svg_dom_1_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__batik_batik_transcoder_1_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__batik_batik_util_1_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__batik_batik_xml_1_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__classworlds_classworlds_1_1_alpha_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_cedarsoftware_json_io_4_10_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_mkolisnyk_cucumber_report_generator_1_3_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_mkolisnyk_cucumber_runner_1_0_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_itextpdf_itextpdf_5_5_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_lowagie_itext_2_1_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_2_7_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_digester_commons_digester_1_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_validator_commons_validator_1_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_core_1_2_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_junit_1_2_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_jvm_deps_1_0_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_testng_1_2_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_gherkin_2_12_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_cucumber_junit_2_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_cucumber_spring_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_transaction_javax_transaction_api_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_9_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_10_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_10_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_slf4j_impl_2_10_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_doxia_doxia_core_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_doxia_doxia_decoration_model_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_doxia_doxia_module_apt_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_doxia_doxia_module_fml_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_doxia_doxia_module_xdoc_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_doxia_doxia_module_xhtml_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_doxia_doxia_sink_api_1_0_alpha_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_doxia_doxia_site_renderer_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_artifact_2_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_artifact_manager_2_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_model_2_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_plugin_api_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_profile_2_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_project_2_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_repository_metadata_2_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_settings_2_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_reporting_maven_reporting_api_2_0_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_reporting_maven_reporting_impl_2_0_4_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_shared_maven_doxia_tools_1_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_wagon_wagon_provider_api_1_0_alpha_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_29.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_29.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_29.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_velocity_velocity_1_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bctsp_jdk14_1_38.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_container_default_1_0_alpha_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_i18n_1_0_beta_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_utils_3_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_velocity_1_1_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_28.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_1_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_2_16_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_0_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_9_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_22_0_CR2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_0_3_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_3_11_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_3_9_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_0_1_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_0_1_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_0_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_0_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_0_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_log4j2_2_0_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_0_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_0_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_0_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_0_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_0_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_0_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_0_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_0_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_0_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_0_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xhtmlrenderer_flying_saucer_core_9_1_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xhtmlrenderer_flying_saucer_pdf_9_1_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__oro_oro_2_0_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__rhino_js_1_5R4_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xmlParserAPIs_2_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberWebTest/stepDefinitions/frontend/RunWebTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberWebTest/stepDefinitions/frontend/RunWebTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/UI/cucumber-html-report/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/UI/cucumber-html-report/report.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/UI/cucumber-pretty.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/UI/cucumber-pretty.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/UI/cucumber-results-coverage.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/UI/cucumber-results-coverage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/UI/cucumber-results-coverage.html.bak.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/UI/cucumber-results-coverage.html.bak.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/UI/cucumber-results-coverage.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/target/UI/cucumber-results-coverage.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/UI/cucumber-results-feature-overview-dump.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/UI/cucumber-results-feature-overview-dump.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/UI/cucumber-results-feature-overview.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/UI/cucumber-results-feature-overview.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/UI/cucumber-results-feature-overview.html.bak.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/UI/cucumber-results-feature-overview.html.bak.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/UI/cucumber-results-feature-overview.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/target/UI/cucumber-results-feature-overview.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/UI/cucumber-results-test-results.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/UI/cucumber-results-test-results.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/UI/cucumber-results-test-results.html.bak.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/UI/cucumber-results-test-results.html.bak.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/UI/cucumber-results-test-results.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/target/UI/cucumber-results-test-results.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/UI/cucumber-results-usage.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/UI/cucumber-results-usage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/UI/cucumber-results-usage.html.bak.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/UI/cucumber-results-usage.html.bak.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/UI/cucumber-results-usage.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/target/UI/cucumber-results-usage.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/UI/cucumber-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/UI/cucumber-results.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/UI/cucumber-usage.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/UI/cucumber-usage.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/UI/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/UI/cucumber.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cucumberWebTest/frontend/pageObjects/UserProfilePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cucumberWebTest/frontend/pageObjects/UserProfilePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/cucumberWebTest/Hooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/cucumberWebTest/Hooks.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/cucumberWebTest/stepDefinitions/UISteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/cucumberWebTest/stepDefinitions/UISteps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/cucumberWebTest/stepDefinitions/api/RunApiTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/cucumberWebTest/stepDefinitions/api/RunApiTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/cucumberWebTest/stepDefinitions/frontend/RunWebTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/cucumberWebTest/stepDefinitions/frontend/RunWebTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/extract-zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/extract-zip.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/mkdirp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/mkdirp.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/mvn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/mvn.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/mvnDebug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/mvnDebug.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/mvnyjp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/mvnyjp.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/buffer-from/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/buffer-from/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/buffer-from/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/buffer-from/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/concat-stream/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/concat-stream/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/concat-stream/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/concat-stream/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-util-is/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-util-is/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-util-is/float.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-util-is/lib/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-util-is/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-util-is/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/debug/.coveralls.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/debug/.eslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/debug/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/debug/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/debug/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/debug/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/debug/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/debug/component.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/debug/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/debug/node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/debug/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/debug/src/browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/debug/src/debug.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/debug/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/debug/src/inspector-log.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/debug/src/node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/extract-zip/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/extract-zip/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/extract-zip/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/extract-zip/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/extract-zip/cli.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/extract-zip/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/extract-zip/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/extract-zip/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fd-slicer/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fd-slicer/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fd-slicer/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fd-slicer/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fd-slicer/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fd-slicer/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fd-slicer/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fd-slicer/test/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/inherits/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/inherits/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/inherits/inherits.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/inherits/inherits_browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/inherits/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/isarray/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/isarray/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/isarray/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/isarray/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/isarray/component.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/isarray/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/isarray/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/isarray/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/maven/AUTHORS.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/maven/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/maven/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/maven/TODO.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/maven/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/maven/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/maven/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/maven/typings.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/minimist/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/minimist/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/minimist/example/parse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/minimist/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/minimist/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/minimist/readme.markdown" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/minimist/test/dash.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/minimist/test/default_bool.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/minimist/test/dotted.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/minimist/test/long.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/minimist/test/parse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/minimist/test/parse_modified.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/minimist/test/short.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/minimist/test/whitespace.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mkdirp/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mkdirp/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mkdirp/bin/cmd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mkdirp/bin/usage.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mkdirp/examples/pow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mkdirp/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mkdirp/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mkdirp/readme.markdown" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mkdirp/test/chmod.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mkdirp/test/clobber.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mkdirp/test/mkdirp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mkdirp/test/opts_fs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mkdirp/test/opts_fs_sync.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mkdirp/test/perm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mkdirp/test/perm_sync.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mkdirp/test/race.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mkdirp/test/rel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mkdirp/test/return.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mkdirp/test/return_sync.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mkdirp/test/root.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mkdirp/test/sync.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mkdirp/test/umask.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mkdirp/test/umask_sync.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ms/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ms/license.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ms/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ms/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mvn/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mvn/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mvn/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mvn/bin/mvn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mvn/bin/mvnDebug.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mvn/bin/mvnyjp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mvn/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mvn/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mvn/src/apache-maven-3.5.0-bin.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mvn/target.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pend/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pend/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pend/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pend/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pend/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/process-nextick-args/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/process-nextick-args/license.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/process-nextick-args/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/process-nextick-args/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/GOVERNANCE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/doc/wg-meetings/2015-01-30.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/duplex-browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/duplex.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/lib/_stream_duplex.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/lib/_stream_passthrough.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/lib/_stream_readable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/lib/_stream_transform.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/lib/_stream_writable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/lib/internal/streams/BufferList.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/lib/internal/streams/destroy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/lib/internal/streams/stream-browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/lib/internal/streams/stream.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/passthrough.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/readable-browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/readable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/transform.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/writable-browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/writable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/safe-buffer/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/safe-buffer/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/safe-buffer/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/safe-buffer/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/safe-buffer/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/string_decoder/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/string_decoder/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/string_decoder/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/string_decoder/lib/string_decoder.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/string_decoder/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/typedarray/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/typedarray/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/typedarray/example/tarray.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/typedarray/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/typedarray/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/typedarray/readme.markdown" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/typedarray/test/server/undef_globals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/typedarray/test/tarray.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/util-deprecate/History.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/util-deprecate/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/util-deprecate/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/util-deprecate/browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/util-deprecate/node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/util-deprecate/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/yauzl/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/yauzl/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/yauzl/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/yauzl/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/yauzl/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/yauzl/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/onlineStore.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cucumberWebTest/backend/bindings/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cucumberWebTest/backend/service/RestServices.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cucumberWebTest/config/SpringConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cucumberWebTest/frontend/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tccTest/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cucumberWebTest/frontend/pageObjects/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tccTest/pageObjects/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cucumberWebTest/frontend/pageObjects/NewRegistrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tccTest/pageObjects/ContactPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cucumberWebTest/frontend/pageObjects/UserProfilePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberWebTest/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tccTest/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberWebTest/stepDefinitions/APIUserSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberWebTest/stepDefinitions/UISteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tccTest/stepDefinitions/UISteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberWebTest/stepDefinitions/api/RunApiTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberWebTest/stepDefinitions/frontend/RunWebTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tccTest/stepDefinitions/frontend/RunWebTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/backend/Users.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/frontend/loginTest.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/frontend/newRegistration.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/API/cucumber-html-report/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/API/cucumber-pretty.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/API/cucumber-results-agg-test-results.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/API/cucumber-results-agg-test-results.html.bak.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/API/cucumber-results-coverage.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/API/cucumber-results-coverage.html.bak.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/API/cucumber-results-coverage.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/API/cucumber-results-feature-overview-dump.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/API/cucumber-results-feature-overview.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/API/cucumber-results-feature-overview.html.bak.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/API/cucumber-results-feature-overview.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/API/cucumber-results-test-results.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/API/cucumber-results-test-results.html.bak.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/API/cucumber-results-test-results.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/API/cucumber-results-usage.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/API/cucumber-results-usage.html.bak.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/API/cucumber-results-usage.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/API/cucumber-results.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/API/cucumber-usage.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/API/cucumber.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/UI/cucumber-html-report/formatter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/UI/cucumber-html-report/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/UI/cucumber-html-report/jquery-1.8.2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/UI/cucumber-html-report/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/UI/cucumber-html-report/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/UI/cucumber-pretty.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/UI/cucumber-results-coverage.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/UI/cucumber-results-coverage.html.bak.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/UI/cucumber-results-coverage.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/UI/cucumber-results-feature-overview-dump.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/UI/cucumber-results-feature-overview.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/UI/cucumber-results-feature-overview.html.bak.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/UI/cucumber-results-feature-overview.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/UI/cucumber-results-test-results.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/UI/cucumber-results-test-results.html.bak.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/UI/cucumber-results-test-results.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/UI/cucumber-results-usage.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/UI/cucumber-results-usage.html.bak.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/UI/cucumber-results-usage.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/UI/cucumber-results.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/UI/cucumber-usage.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/UI/cucumber.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cucumberWebTest/backend/bindings/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cucumberWebTest/backend/service/RestServices.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cucumberWebTest/config/SpringConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cucumberWebTest/frontend/BasePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cucumberWebTest/frontend/pageObjects/HomePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cucumberWebTest/frontend/pageObjects/NewRegistrationPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cucumberWebTest/frontend/pageObjects/UserProfilePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/onlineStore-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Surefire suite/Surefire test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Surefire suite/Surefire test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-cucumberWebTest.stepDefinitions.frontend.RunWebTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/bullet_point.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/collapseall.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/cucumberWebTest.stepDefinitions.frontend.RunWebTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/cucumberWebTest.stepDefinitions.frontend.RunWebTest/Command line test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/cucumberWebTest.stepDefinitions.frontend.RunWebTest/Command line test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/cucumberWebTest.stepDefinitions.frontend.RunWebTest/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/failed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/jquery-1.7.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-cucumberWebTest.stepDefinitions.api.RunApiTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-cucumberWebTest.stepDefinitions.frontend.RunWebTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/navigator-bullet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/Surefire test.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/groups.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/methods-alphabetical.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/methods-not-run.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/methods.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/reporter-output.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/testng.xml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/toc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/cucumberWebTest.stepDefinitions.frontend.RunWebTest/Command line test.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/cucumberWebTest.stepDefinitions.frontend.RunWebTest/classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/cucumberWebTest.stepDefinitions.frontend.RunWebTest/groups.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/cucumberWebTest.stepDefinitions.frontend.RunWebTest/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/cucumberWebTest.stepDefinitions.frontend.RunWebTest/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/cucumberWebTest.stepDefinitions.frontend.RunWebTest/methods-alphabetical.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/cucumberWebTest.stepDefinitions.frontend.RunWebTest/methods-not-run.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/cucumberWebTest.stepDefinitions.frontend.RunWebTest/methods.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/cucumberWebTest.stepDefinitions.frontend.RunWebTest/reporter-output.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/cucumberWebTest.stepDefinitions.frontend.RunWebTest/testng.xml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/cucumberWebTest.stepDefinitions.frontend.RunWebTest/toc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/passed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/skipped.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/onlineStore.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/cucumberWebTest/Hooks.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/cucumberWebTest/stepDefinitions/APIUserSteps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/cucumberWebTest/stepDefinitions/UISteps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/cucumberWebTest/stepDefinitions/api/RunApiTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/cucumberWebTest/stepDefinitions/frontend/RunWebTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/backend/Users.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/frontend/loginTest.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/frontend/newRegistration.feature" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,82 +453,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/cucumberWebTest/Hooks.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="563">
-              <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/features/frontend/loginTest.feature">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tccTest/Hooks.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
-              <caret line="3" column="48" lean-forward="true" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/cucumberWebTest/stepDefinitions/UISteps.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="82" column="34" lean-forward="true" selection-start-line="82" selection-start-column="34" selection-end-line="82" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cucumberWebTest/frontend/pageObjects/UserProfilePage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-              <folding>
-                <element signature="e#698#699#0" expanded="true" />
-                <element signature="e#730#731#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docker-compose.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-186">
-              <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="101" column="26" selection-start-line="101" selection-start-column="26" selection-end-line="101" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cucumberWebTest/backend/bindings/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cucumberWebTest/config/SpringConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
               <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -122,11 +464,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/cucumberWebTest/stepDefinitions/frontend/RunWebTest.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/features/contactPageTest.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+            <state relative-caret-position="136">
+              <caret line="8" selection-start-line="8" selection-start-column="1" selection-end-line="17" selection-end-column="95" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tccTest/stepDefinitions/UISteps.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -134,11 +485,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/cucumberWebTest/stepDefinitions/api/RunApiTest.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tccTest/stepDefinitions/frontend/RunWebTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="49" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
+            <state relative-caret-position="289">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -151,6 +502,11 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>sure</find>
+      <find>Spring</find>
+      <find>io.</find>
+      <find>2</find>
+      <find>ma</find>
+      <find>test</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -169,16 +525,29 @@
         <option value="$PROJECT_DIR$/src/main/java/cucumberWebTest/frontend/pageObjects/HomePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/cucumberWebTest/stepDefinitions/UIStepsRegistration.java" />
         <option value="$PROJECT_DIR$/src/main/java/cucumberWebTest/frontend/pageObjects/NewRegistrationPage.java" />
-        <option value="$PROJECT_DIR$/.gitlab-ci.yml" />
         <option value="$PROJECT_DIR$/src/test/resources/features/frontend/newRegistration.feature" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/cucumberWebTest/stepDefinitions/UISteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/cucumberWebTest/Hooks.java" />
         <option value="$PROJECT_DIR$/src/test/java/cucumberWebTest/stepDefinitions/api/RunApiTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/cucumberWebTest/frontend/pageObjects/UserProfilePage.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/features/frontend/loginTest.feature" />
-        <option value="$PROJECT_DIR$/docker-compose.yml" />
         <option value="$PROJECT_DIR$/src/test/java/cucumberWebTest/stepDefinitions/frontend/RunWebTest.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/frontend/loginTest.feature" />
+        <option value="$PROJECT_DIR$/.gitlab-ci.yml" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/frontend/contactPageTest.feature" />
+        <option value="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tccTest.stepDefinitions.frontend.RunWebTest.xml" />
+        <option value="$PROJECT_DIR$/target/surefire-reports/Surefire suite/Surefire test.xml" />
+        <option value="$PROJECT_DIR$/testrunner.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/tccTest/pageObjects/HomePage.java" />
+        <option value="$PROJECT_DIR$/_gitignore" />
+        <option value="$PROJECT_DIR$/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/src/test/java/tccTest/stepDefinitions/frontend/RunWebTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tccTest/pageObjects/ContactPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tccTest/stepDefinitions/UISteps.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/tccTest/Hooks.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/contactPageTest.feature" />
+        <option value="$PROJECT_DIR$/package-lock.json" />
       </list>
     </option>
   </component>
@@ -194,7 +563,23 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="onlineStore" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="taxCreditCo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="taxCreditCo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="taxCreditCo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="surefire" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="taxCreditCo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
       </expand>
       <select />
@@ -212,213 +597,79 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="onlineStore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="onlineStore" type="462c0819:PsiDirectoryNode" />
+              <item name="taxCreditCo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="taxCreditCo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="onlineStore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="onlineStore" type="462c0819:PsiDirectoryNode" />
+              <item name="taxCreditCo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="taxCreditCo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="onlineStore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="onlineStore" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="onlineStore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="onlineStore" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="onlineStore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="onlineStore" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cucumberWebTest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="onlineStore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="onlineStore" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cucumberWebTest" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="onlineStore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="onlineStore" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cucumberWebTest" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="bindings" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="onlineStore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="onlineStore" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cucumberWebTest" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="onlineStore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="onlineStore" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cucumberWebTest" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="onlineStore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="onlineStore" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cucumberWebTest" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="onlineStore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="onlineStore" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cucumberWebTest" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="pageObjects" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="onlineStore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="onlineStore" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="onlineStore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="onlineStore" type="462c0819:PsiDirectoryNode" />
+              <item name="taxCreditCo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="taxCreditCo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="onlineStore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="onlineStore" type="462c0819:PsiDirectoryNode" />
+              <item name="taxCreditCo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="taxCreditCo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="onlineStore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="onlineStore" type="462c0819:PsiDirectoryNode" />
+              <item name="taxCreditCo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="taxCreditCo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cucumberWebTest" type="462c0819:PsiDirectoryNode" />
+              <item name="tccTest" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="onlineStore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="onlineStore" type="462c0819:PsiDirectoryNode" />
+              <item name="taxCreditCo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="taxCreditCo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cucumberWebTest" type="462c0819:PsiDirectoryNode" />
+              <item name="tccTest" type="462c0819:PsiDirectoryNode" />
               <item name="stepDefinitions" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="onlineStore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="onlineStore" type="462c0819:PsiDirectoryNode" />
+              <item name="taxCreditCo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="taxCreditCo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cucumberWebTest" type="462c0819:PsiDirectoryNode" />
-              <item name="stepDefinitions" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="onlineStore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="onlineStore" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cucumberWebTest" type="462c0819:PsiDirectoryNode" />
+              <item name="tccTest" type="462c0819:PsiDirectoryNode" />
               <item name="stepDefinitions" type="462c0819:PsiDirectoryNode" />
               <item name="frontend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="onlineStore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="onlineStore" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="onlineStore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="onlineStore" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="features" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="onlineStore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="onlineStore" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="features" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="onlineStore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="onlineStore" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="features" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="onlineStore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="onlineStore" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="onlineStore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555532167967" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556054488963" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Kostadin Mladenov\Documents\Coding\IntelliJ Projects\taxCreditCo\src\test\resources\features" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="cucumberWebTest.backend.service" />
       <recent name="cucumberWebTest.backend.bindings" />
@@ -426,6 +677,7 @@
       <recent name="cucumberWebTest.stepDefinitions.api" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Kostadin Mladenov\Documents\Coding\IntelliJ Projects\taxCreditCo" />
       <recent name="C:\Users\Kostadin Mladenov\Documents\Coding\IntelliJ Projects\onlineStore\src\test\resources\features\backend" />
       <recent name="C:\Users\Kostadin Mladenov\Documents\Coding\IntelliJ Projects\onlineStore\src\main\java\cucumberWebTest\config" />
     </key>
@@ -442,15 +694,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber java.Scenario: Login with Valid Credentials">
-    <configuration name="Feature: loginTest" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.RunWebTest">
+    <configuration name="Feature: contactPageTest" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/frontend/loginTest.feature" />
-      <option name="GLUE" value="cucumberWebTest.stepDefinitions cucumber.api.spring" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/frontend/contactPageTest.feature" />
+      <option name="GLUE" value="cucumber.api.spring tccTest.stepDefinitions" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="onlineStore" />
+      <module name="taxCreditCo" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm2SMFormatter --monochrome" />
-      <option name="SUGGESTED_NAME" value="Feature: loginTest" />
+      <option name="SUGGESTED_NAME" value="Feature: contactPageTest" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -461,14 +713,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: newRegistration" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Login with Valid Credentials (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/frontend/newRegistration.feature" />
-      <option name="GLUE" value="cucumberWebTest.stepDefinitions cucumber.api.spring" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/frontend/contactPageTest.feature" />
+      <option name="GLUE" value="cucumber.api.spring tccTest.stepDefinitions" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="onlineStore" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm2SMFormatter --monochrome" />
-      <option name="SUGGESTED_NAME" value="Feature: newRegistration" />
+      <module name="taxCreditCo" />
+      <option name="NAME_FILTER" value="^Login with Valid Credentials$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm2SMFormatter --monochrome --name &quot;^Login with Valid Credentials$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Login with Valid Credentials" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -484,7 +737,7 @@
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/frontend/loginTest.feature" />
       <option name="GLUE" value="cucumber.api.spring cucumberWebTest.stepDefinitions" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="onlineStore" />
+      <module name="taxCreditCo" />
       <option name="NAME_FILTER" value="^Login with Valid Credentials$" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm2SMFormatter --monochrome --name &quot;^Login with Valid Credentials$&quot;" />
       <option name="SUGGESTED_NAME" value="Scenario: Login with Valid Credentials" />
@@ -498,47 +751,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RunApiTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="onlineStore" />
+    <configuration name="Scenario: Navigate to Contact page" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/frontend/contactPageTest.feature" />
+      <option name="GLUE" value="cucumber.api.spring tccTest.stepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="taxCreditCo" />
+      <option name="NAME_FILTER" value="^Navigate to Contact page$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm2SMFormatter --monochrome --name &quot;^Navigate to Contact page$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Navigate to Contact page" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cucumberWebTest.stepDefinitions.api.*" />
+          <option name="PATTERN" value="cucumber.api.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="cucumberWebTest.stepDefinitions.api" />
-      <option name="MAIN_CLASS_NAME" value="cucumberWebTest.stepDefinitions.api.RunApiTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="RunWebTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="onlineStore" />
+      <module name="taxCreditCo" />
+      <shortenClasspath name="NONE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cucumberWebTest.stepDefinitions.frontend.*" />
+          <option name="PATTERN" value="tccTest.stepDefinitions.frontend.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="cucumberWebTest.stepDefinitions.frontend" />
-      <option name="MAIN_CLASS_NAME" value="cucumberWebTest.stepDefinitions.frontend.RunWebTest" />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="tccTest.stepDefinitions.frontend" />
+      <option name="MAIN_CLASS_NAME" value="tccTest.stepDefinitions.frontend.RunWebTest" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Cucumber java.Feature: contactPageTest" />
+      <item itemvalue="Cucumber java.Scenario: Login with Valid Credentials" />
+      <item itemvalue="Cucumber java.Scenario: Login with Valid Credentials (1)" />
+      <item itemvalue="Cucumber java.Scenario: Navigate to Contact page" />
+      <item itemvalue="TestNG.RunWebTest" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber java.Scenario: Login with Valid Credentials" />
         <item itemvalue="TestNG.RunWebTest" />
-        <item itemvalue="Cucumber java.Feature: loginTest" />
-        <item itemvalue="TestNG.RunApiTest" />
-        <item itemvalue="Cucumber java.Feature: newRegistration" />
+        <item itemvalue="Cucumber java.Feature: contactPageTest" />
+        <item itemvalue="Cucumber java.Scenario: Navigate to Contact page" />
+        <item itemvalue="Cucumber java.Scenario: Login with Valid Credentials (1)" />
+        <item itemvalue="Cucumber java.Scenario: Login with Valid Credentials" />
       </list>
     </recent_temporary>
   </component>
@@ -557,7 +828,16 @@
       <workItem from="1554088924598" duration="10150000" />
       <workItem from="1554273592279" duration="5470000" />
       <workItem from="1554962681126" duration="27592000" />
-      <workItem from="1555479825112" duration="5495000" />
+      <workItem from="1555479825112" duration="6136000" />
+      <workItem from="1555625976505" duration="620000" />
+      <workItem from="1555972838415" duration="1070000" />
+      <workItem from="1555974659991" duration="1174000" />
+      <workItem from="1555976502650" duration="359000" />
+      <workItem from="1555976909107" duration="71000" />
+      <workItem from="1555977042057" duration="594000" />
+      <workItem from="1555977702673" duration="52000" />
+      <workItem from="1555977797613" duration="40160000" />
+      <workItem from="1556054412002" duration="738000" />
     </task>
     <task id="LOCAL-00001" summary="changing mvn command">
       <created>1554348170420</created>
@@ -706,49 +986,56 @@
       <option name="project" value="LOCAL" />
       <updated>1555521844408</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Updated docker-compose chrome resolution">
+      <created>1555532203311</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1555532203311</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RunApiTest - 2019.04.11 at 14h 17m 59s.xml">
-      <configuration name="RunApiTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="RunApiTest - 2019.04.11 at 19h 02m 58s.xml">
-      <configuration name="RunApiTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="RunWebTest - 2019.04.11 at 19h 05m 40s.xml">
+    <history-entry file="RunWebTest - 2019.04.23 at 00h 58m 08s.xml">
       <configuration name="RunWebTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="RunWebTest - 2019.04.11 at 19h 07m 26s.xml">
+    <history-entry file="RunWebTest - 2019.04.23 at 00h 58m 55s.xml">
       <configuration name="RunWebTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="RunWebTest - 2019.04.11 at 22h 40m 15s.xml">
+    <history-entry file="RunWebTest - 2019.04.23 at 00h 59m 51s.xml">
       <configuration name="RunWebTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="RunWebTest - 2019.04.11 at 22h 45m 08s.xml">
+    <history-entry file="RunWebTest - 2019.04.23 at 01h 04m 14s.xml">
       <configuration name="RunWebTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="RunWebTest - 2019.04.11 at 22h 47m 15s.xml">
+    <history-entry file="RunWebTest - 2019.04.23 at 01h 04m 34s.xml">
       <configuration name="RunWebTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Feature__loginTest - 2019.04.17 at 09h 56m 18s.xml">
-      <configuration name="Feature: loginTest" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="RunWebTest - 2019.04.17 at 10h 00m 51s.xml">
+    <history-entry file="RunWebTest - 2019.04.23 at 01h 06m 26s.xml">
       <configuration name="RunWebTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Scenario__Login_with_Valid_Credentials - 2019.04.17 at 10h 18m 06s.xml">
-      <configuration name="Scenario: Login with Valid Credentials" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="RunWebTest - 2019.04.23 at 01h 10m 07s.xml">
+      <configuration name="RunWebTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="RunWebTest - 2019.04.23 at 13h 47m 37s.xml">
+      <configuration name="RunWebTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="RunWebTest - 2019.04.23 at 14h 06m 33s.xml">
+      <configuration name="RunWebTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="RunWebTest - 2019.04.23 at 14h 07m 53s.xml">
+      <configuration name="RunWebTest" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71011000" />
+    <option name="totallyTimeSpent" value="116490000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1549" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24346076" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24413146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -757,7 +1044,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32931727" />
       <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.44176707" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39892906" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -777,11 +1064,46 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" weight="0.32997987" />
+      <window_info anchor="right" id="Maven" order="6" weight="0.3293092" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3789403" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32931727" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.44176707" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39892906" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32931727" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3253012" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.30923694" />
+      <window_info anchor="bottom" id="Spring" order="13" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" weight="0.3293092" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -806,27 +1128,49 @@
     <MESSAGE value="Updated docker-compose chrome resolution" />
     <option name="LAST_COMMIT_MESSAGE" value="Updated docker-compose chrome resolution" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/tccTest/stepDefinitions/UISteps.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/test/java/tccTest/stepDefinitions/UISteps.java</url>
+          <line>11</line>
+          <properties field="homePage" class="tccTest.stepDefinitions.UISteps" />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>driver.findElement(By.className(&quot;hbspt-form-1555985725993-5235200368&quot;)).getText()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>driver.findElement(By.className(&quot;hbspt-form&quot;)).getText()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>driver.findElement(By.id(&quot;hbspt-form-1555985725993-5235200368&quot;)).getText()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>contactPage.getPopup().getAttribute(&quot;value&quot;);</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/target/surefire-reports/cucumberWebTest.stepDefinitions.frontend.RunWebTest/Command line test.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/UI/cucumber-results-coverage.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.5.RELEASE/spring-web-5.0.5.RELEASE.jar!/org/springframework/http/client/ClientHttpRequestFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.5.RELEASE/spring-web-5.0.5.RELEASE.jar!/org/springframework/http/HttpHeaders.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3570">
-          <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.5.RELEASE/spring-web-5.0.5.RELEASE.jar!/org/springframework/http/HttpEntity.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -849,21 +1193,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cucumberWebTest/frontend/pageObjects/HomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1173" />
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.10/testng-6.10.jar!/org/testng/Assert.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="159">
@@ -882,27 +1211,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/cucumber/cucumber-core/2.4.0/cucumber-core-2.4.0.jar!/cucumber/runtime/Utils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/API/cucumber-results-test-results.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/API/cucumber-results-agg-test-results.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/API/cucumber.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/UI/cucumber.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2397" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/target/API/cucumber-results-test-results.html" />
+    <entry file="file://$PROJECT_DIR$/target/API/cucumber-results-agg-test-results.html" />
+    <entry file="file://$PROJECT_DIR$/target/API/cucumber.json" />
+    <entry file="file://$PROJECT_DIR$/target/UI/cucumber.json" />
     <entry file="jar://$MAVEN_REPOSITORY$/com/github/mkolisnyk/cucumber-runner/1.3.5/cucumber-runner-1.3.5.jar!/com/github/mkolisnyk/cucumber/runner/ExtendedTestNGRunner.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
@@ -910,76 +1222,161 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cucumberWebTest/frontend/pageObjects/NewRegistrationPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="46" column="43" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1150#1151#0" expanded="true" />
-            <element signature="e#1191#1192#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/frontend/newRegistration.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cucumberWebTest/frontend/BasePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="10" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/backend/Users.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" selection-start-column="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/cucumberWebTest/stepDefinitions/APIUserSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitlab-ci.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cucumberWebTest/backend/service/RestServices.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cucumberWebTest/config/SpringConfig.java">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/frontend/newRegistration.feature" />
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/backend/Users.feature" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/cucumberWebTest/stepDefinitions/APIUserSteps.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cucumberWebTest/backend/service/RestServices.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/tccTest/pageObjects/UserProfilePage.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/cucumberWebTest/stepDefinitions/api/RunApiTest.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.9.1/selenium-api-3.9.1.jar!/org/openqa/selenium/WebDriver.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cucumberWebTest/backend/bindings/User.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cucumberWebTest/config/SpringConfig.java" />
+    <entry file="file://$PROJECT_DIR$/target/test-classes/tccTest/stepDefinitions/frontend/RunWebTest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-48">
+          <folding>
+            <element signature="e#0#1216#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/test-classes/features/frontend/contactPageTest.feature" />
+    <entry file="file://$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tccTest.stepDefinitions.frontend.RunWebTest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/surefire-reports/testng-results.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/surefire-reports/Surefire suite/Surefire test.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="79" selection-start-line="2" selection-start-column="79" selection-end-line="2" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/surefire-reports/testng.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/surefire-reports/TEST-tccTest.stepDefinitions.frontend.RunWebTest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="64" column="99" selection-start-line="64" selection-start-column="99" selection-end-line="64" selection-end-column="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tccTest/pageObjects/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/cucumber/cucumber-testng/2.4.0/cucumber-testng-2.4.0.jar!/cucumber/api/testng/AbstractTestNGCucumberTests.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/cucumber/cucumber-core/2.4.0/cucumber-core-2.4.0.jar!/cucumber/runtime/Utils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="e#1104#2182#0" expanded="true" />
+            <element signature="e#2181#2182#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.IntelliJIdea2018.3/system/temp-testng-customsuite.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/cucumber/cucumber-java8/2.4.0/cucumber-java8-2.4.0.jar!/cucumber/api/java8/En.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3026">
+          <caret line="190" column="22" selection-start-line="190" selection-start-column="22" selection-end-line="190" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#25068#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.9.1/selenium-support-3.9.1.jar!/org/openqa/selenium/support/PageFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-712">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tccTest/BasePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitlab-ci.yml" />
+    <entry file="file://$PROJECT_DIR$/testrunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taxCreditCo.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1801">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/tccTest/pageObjects/ContactPage.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#2506#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/tccTest/Hooks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -987,79 +1384,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cucumberWebTest/backend/bindings/User.java">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/contactPageTest.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-start-column="1" selection-end-line="17" selection-end-column="95" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/cucumberWebTest/Hooks.java">
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="563">
-          <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+        <state relative-caret-position="425">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tccTest/stepDefinitions/UISteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/cucumberWebTest/stepDefinitions/api/RunApiTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/tccTest/pageObjects/ContactPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="49" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
+        <state relative-caret-position="1037">
+          <caret line="86" column="32" selection-start-line="86" selection-start-column="32" selection-end-line="86" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/cucumberWebTest/stepDefinitions/UISteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="82" column="34" lean-forward="true" selection-start-line="82" selection-start-column="34" selection-end-line="82" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cucumberWebTest/frontend/pageObjects/UserProfilePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="e#698#699#0" expanded="true" />
-            <element signature="e#730#731#0" expanded="true" />
+            <element signature="e#261#262#0" expanded="true" />
+            <element signature="e#290#291#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="101" column="26" selection-start-line="101" selection-start-column="26" selection-end-line="101" selection-end-column="26" />
+        <state relative-caret-position="527">
+          <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/frontend/loginTest.feature">
+    <entry file="file://$PROJECT_DIR$/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="48" lean-forward="true" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
+        <state relative-caret-position="68">
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/tccTest/stepDefinitions/frontend/RunWebTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-186">
-          <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/cucumberWebTest/stepDefinitions/frontend/RunWebTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
